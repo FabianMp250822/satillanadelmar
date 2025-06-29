@@ -1,72 +1,86 @@
 {
   "Metadata": {
-    "title": "Santillana Living",
+    "title": "Santillana del Mar",
     "description": "Encuentra la casa de tus sueños en el sereno paisaje de Santillana del Mar."
   },
   "Header": {
-    "features": "Características",
-    "gallery": "Galería",
-    "visualizer": "Visualizador"
+    "title": "Santillana del Mar"
   },
   "Hero": {
-    "title": "Descubre Santillana Living",
-    "subtitle": "Tu escape sereno al abrazo de la naturaleza. Construye la casa de tus sueños en el corazón de Santillana del Mar.",
-    "cta": "Visualiza la Casa de tus Sueños"
+    "title": "Convierte tu hogar soñado",
+    "logoAlt": "Logo de Santillana del Mar",
+    "backgroundImageAlt": "Vista aérea de Santillana del Mar"
   },
-  "Features": {
-    "title": "Una Experiencia de Vida Inigualable",
-    "subtitle": "Santillana Living es más que un lugar para vivir, es un estilo de vida.",
-    "amenities": {
-      "title": "Exuberantes Amenidades",
-      "description": "Disfruta del acceso a parques privados, senderos para caminar y jardines comunitarios, todo dentro de una comunidad cerrada y segura."
+  "Intro": {
+    "title": "¡Haz realidad tus sueños en Santillana del Mar!",
+    "urbanDevelopment": {
+      "title": "Desarrollo Urbano",
+      "description": "Desarrollo urbano attrs. Un lugar exclusivo disenado para ofrecer una excelente calidad de vida, tranquilidad y un entorno natural, con vías internas que conducen a una vista privilegiada de la ciénaga, ideal para practicar deportes acuáticos y pesca."
     },
-    "lots": {
-      "title": "Amplios Lotes",
-      "description": "Elige entre una variedad de tamaños de lote para construir tu casa personalizada, con amplio espacio para jardines, piscinas y más."
-    },
-    "payment": {
-      "title": "Opciones de Pago Flexibles",
-      "description": "Ofrecemos planes de financiación a medida para hacer realidad tu sueño de tener una casa en Santillana."
+    "strategicLocation": {
+      "title": "Ubicación Estratégica",
+      "description": "Se encuentra ubicado en la variante de Cartagena, en la vía que comunica a la cordialidad de Turbaco, a solo 10 minutos de la ciudad, a 15 minutos de centros comerciales como Los Ejecutivos y a 12 minutos del Hospital Serena del Mar."
     }
   },
-  "Gallery": {
-    "title": "Explora la Belleza de Santillana",
-    "subtitle": "Un vistazo al estilo de vida que te espera."
+  "Gate": {
+    "title": "Portería de Lujo",
+    "imageAlt": "Portería de lujo de Santillana del Mar",
+    "logoAlt": "Logo de Santillana del Mar"
   },
-  "DreamHomeVisualizer": {
-    "title": "Visualiza tu Casa de Ensueño",
-    "subtitle": "Usa nuestra herramienta con IA para crear una representación personalizada de tu posible hogar. Selecciona tus preferencias y ve cómo tu visión cobra vida.",
-    "cardTitle": "Diseña tu Hogar",
-    "cardDescription": "Completa el siguiente formulario para comenzar.",
-    "styleLabel": "Estilo Arquitectónico",
-    "stylePlaceholder": "ej., Moderno, Tradicional",
-    "styleModern": "Moderno",
-    "styleTraditional": "Tradicional",
-    "styleRustic": "Rústico",
-    "styleCoastal": "Costero",
-    "sizeLabel": "Tamaño de la Casa",
-    "sizePlaceholder": "ej., Pequeño, Mediano",
-    "sizeSmall": "Pequeña casa de campo acogedora",
-    "sizeMedium": "Casa familiar mediana",
-    "sizeLarge": "Gran finca",
-    "locationLabel": "Ubicación",
-    "locationPlaceholder": "ej., Frente al Mar, Montaña",
-    "locationBeachfront": "Frente al mar",
-    "locationMountain": "Retiro de montaña",
-    "locationRural": "Campo rural",
-    "locationSuburban": "Suburbano exuberante",
-    "featuresLabel": "Características Adicionales",
-    "featuresPlaceholder": "ej., Piscina infinita, porche envolvente, jardín en la azotea",
-    "buttonGenerating": "Generando...",
-    "buttonGenerate": "Generar Imagen",
-    "loadingText": "Nuestra IA está construyendo tu visión...",
-    "placeholderText": "La casa de tus sueños generada aparecerá aquí.",
-    "toastErrorTitle": "¡Oh no! Algo salió mal.",
-    "toastErrorDescription": "Hubo un problema al generar la casa de tus sueños. Por favor, inténtalo de nuevo."
+  "Amenities": {
+    "title": "Amenidades Exclusivas para Ti y Tu Familia",
+    "playgrounds": { "title": "Juegos infantiles y parque para mascotas" },
+    "pools": { "title": "Piscina para adultos y para niños" },
+    "gym": { "title": "Gimnasio biosaludable al aire libre" },
+    "court": { "title": "Cancha Múltiple" },
+    "parking": { "title": "Parqueadero para visitantes y propietarios" },
+    "bonfire": { "title": "Fogón para reuniones" },
+    "bbq": { "title": "Zonas BBQ" },
+    "social": { "title": "Salón social" },
+    "rcu": { "title": "Recolección de Residuos Sólidos (RCU)" },
+    "security": { "title": "Seguridad privada" }
+  },
+  "MoreInfo": {
+    "Islands": {
+      "ecologicalPaths": "Senderos Ecológicos",
+      "ecologicalPathsAlt": "Una persona caminando en un sendero ecológico",
+      "privateIslands": "2 Islas Privadas",
+      "privateIslandsAlt": "Vista de las islas privadas con zonas de descanso"
+    },
+    "Lots": {
+      "title": "Lotes desde 197 m2",
+      "pricePerM2": "VALOR M2",
+      "price": "420.000",
+      "backgroundImageAlt": "Vista aérea de los lotes"
+    },
+    "Payment": {
+      "title": "Forma de Pago",
+      "imageAlt": "Vista serena de un lago",
+      "socialInterest": "Aplicar con nuestras tasas de interés social.",
+      "separationTitle": "Separación:",
+      "separationValue": "$2.000.000",
+      "initialFeeTitle": "Cuota inicial:",
+      "initialFeeValue": "se puede financiar hasta 10 días antes de la entrega sin intereses.",
+      "financing": "Financiación con nuestros aliados de crédito directo. Por la compra del lote te entregamos los planos y Renders sin costo de arquitectura."
+    },
+    "Policies": {
+      "deliveryTitle": "Política de Entrega del Lote",
+      "deliveryDescription": "El lote se entrega cuando se pague la última cuota de la inicial y se tenga perfeccionada la promesa de compra y venta. Y procedemos con el protocolo de compra y venta y te entregamos los planos y renders de tu casa sin costo. En este punto el cliente puede iniciar los trámites para iniciar la construcción de su vivienda.",
+      "constructionTitle": "Política de Construcción",
+      "constructionDescription": "El traspaso del lote se hace bajo el pago del valor total del lote, es decir cuando pagues tu crédito. Y procedemos a la escritura del inmueble. El propietario tiene la obligación de presentar un proyecto con los planos de construcción a la junta directiva y/o administración para su aprobación y poder iniciar la construcción de su vivienda en un término no mayor a un año, una vez entregada las obras de urbanismo.",
+      "imageAlt": "Un gran árbol junto al agua"
+    },
+    "Services": {
+      "title": "Servicios de Agua, Luz y Gas",
+      "description": "El servicio de agua lo suministra Aguas de Cartagena, lo que garantiza su potabilidad y suministro constante. El OPERADOR DE RED DE LA COSTA tiene sus redes extendidas hasta nuestro proyecto, garantizando un servicio de energía de alta calidad. El servicio de gas cuenta con sus redes principales a la entrada del proyecto, lo que nos permite dar las acometidas correspondientes a todos nuestros lotes y zonas comunes. Contamos con nuestra propia planta de tratamiento de aguas residuales.",
+      "imageAlt": "Una planta tropical exuberante cerca del agua"
+    }
   },
   "Footer": {
-    "copyright": "© {year} Santillana Living. Todos los derechos reservados.",
-    "sitemap": "Mapa del sitio",
-    "robots": "Robots.txt"
+    "logoAlt": "Logo de Santillana del Mar",
+    "phone": "+573015098552",
+    "email": "GERENCIASANTILLANADELMAR@GMAIL.COM",
+    "address": "MANGA AV. JIMENEZ CALLE 28 #17-179",
+    "copyright": "© {year} Santillana del Mar. Todos los derechos reservados."
   }
 }

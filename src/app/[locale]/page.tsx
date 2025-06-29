@@ -1,8 +1,9 @@
 import Header from '@/components/landing/Header';
 import Hero from '@/components/landing/Hero';
-import Features from '@/components/landing/Features';
-import Gallery from '@/components/landing/Gallery';
-import DreamHomeVisualizer from '@/components/landing/DreamHomeVisualizer';
+import Intro from '@/components/landing/Intro';
+import Gate from '@/components/landing/Gate';
+import Amenities from '@/components/landing/Amenities';
+import MoreInfo from '@/components/landing/MoreInfo';
 import Footer from '@/components/landing/Footer';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
@@ -18,9 +19,10 @@ export default function Home({ params: {locale} }: Props) {
       <Header />
       <main className="flex-1">
         <Hero />
-        <Features />
-        <Gallery />
-        <DreamHomeVisualizer />
+        <Intro />
+        <Gate />
+        <Amenities />
+        <MoreInfo />
       </main>
       <Footer />
     </div>

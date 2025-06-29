@@ -1,38 +1,32 @@
-import { Mountain, Twitter, Github, Linkedin } from 'lucide-react';
-import { Link } from '@/navigation';
 import { getTranslations } from 'next-intl/server';
+import Image from 'next/image';
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 export default async function Footer() {
   const t = await getTranslations('Footer');
   
   return (
-    <footer className="bg-background border-t border-border/40 py-8">
-      <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between">
-        <div className="flex items-center mb-4 md:mb-0">
-          <Mountain className="h-6 w-6 text-primary" />
-          <span className="ml-2 text-lg font-bold font-headline">Santillana Living</span>
-        </div>
-        <div className="text-center md:text-left mb-4 md:mb-0">
-          <p className="text-sm text-foreground/80">{t('copyright', {year: new Date().getFullYear()})}</p>
-          <div className="mt-2 space-x-4">
-            <Link href="/sitemap.xml" className="text-sm text-foreground/60 hover:text-primary" prefetch={false}>
-              {t('sitemap')}
-            </Link>
-            <Link href="/robots.txt" className="text-sm text-foreground/60 hover:text-primary" prefetch={false}>
-              {t('robots')}
-            </Link>
+    <footer className="bg-secondary border-t border-border/40 py-12 text-center">
+      <div className="container mx-auto px-4 md:px-6 flex flex-col items-center justify-center">
+        <Image src="https://placehold.co/200x100.png" data-ai-hint="logo gold" alt={t('logoAlt')} width={200} height={100} />
+        
+        <div className="mt-8 space-y-4 text-lg">
+          <div className="flex items-center justify-center gap-3">
+            <Phone className="h-6 w-6 text-primary" />
+            <a href={`tel:${t('phone')}`} className="hover:text-primary transition-colors">{t('phone')}</a>
+          </div>
+          <div className="flex items-center justify-center gap-3">
+            <Mail className="h-6 w-6 text-primary" />
+            <a href={`mailto:${t('email')}`} className="hover:text-primary transition-colors">{t('email')}</a>
+          </div>
+          <div className="flex items-center justify-center gap-3">
+            <MapPin className="h-6 w-6 text-primary" />
+            <span>{t('address')}</span>
           </div>
         </div>
-        <div className="flex space-x-4">
-          <Link href="#" aria-label="Twitter" prefetch={false}>
-            <Twitter className="h-6 w-6 text-foreground/60 hover:text-primary" />
-          </Link>
-          <Link href="#" aria-label="GitHub" prefetch={false}>
-            <Github className="h-6 w-6 text-foreground/60 hover:text-primary" />
-          </Link>
-          <Link href="#" aria-label="LinkedIn" prefetch={false}>
-            <Linkedin className="h-6 w-6 text-foreground/60 hover:text-primary" />
-          </Link>
+
+        <div className="mt-8">
+            <p className="text-sm text-foreground/80">{t('copyright', {year: new Date().getFullYear()})}</p>
         </div>
       </div>
     </footer>

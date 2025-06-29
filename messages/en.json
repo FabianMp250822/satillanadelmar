@@ -1,72 +1,86 @@
 {
   "Metadata": {
-    "title": "Santillana Living",
+    "title": "Santillana del Mar",
     "description": "Find your dream home in the serene landscape of Santillana del Mar."
   },
   "Header": {
-    "features": "Features",
-    "gallery": "Gallery",
-    "visualizer": "Visualizer"
+    "title": "Santillana del Mar"
   },
   "Hero": {
-    "title": "Discover Santillana Living",
-    "subtitle": "Your serene escape into nature's embrace. Build your dream home in the heart of Santillana del Mar.",
-    "cta": "Visualize Your Dream Home"
+    "title": "Build your dream home",
+    "logoAlt": "Santillana del Mar Logo",
+    "backgroundImageAlt": "Aerial view of Santillana del Mar"
   },
-  "Features": {
-    "title": "An Unparalleled Living Experience",
-    "subtitle": "Santillana Living is more than just a place to live, it's a lifestyle.",
-    "amenities": {
-      "title": "Lush Amenities",
-      "description": "Enjoy access to private parks, walking trails, and community gardens, all within a secure, gated community."
+  "Intro": {
+    "title": "Make your dreams come true in Santillana del Mar!",
+    "urbanDevelopment": {
+      "title": "Urban Development",
+      "description": "Urban planning attrs. An exclusive place designed to offer an excellent quality of life, tranquility and a natural environment, with internal roads that lead to a privileged view of the swamp, ideal for water sports and fishing."
     },
-    "lots": {
-      "title": "Spacious Lot Sizes",
-      "description": "Choose from a variety of lot sizes to build your custom home, with ample space for gardens, pools, and more."
-    },
-    "payment": {
-      "title": "Flexible Payment Options",
-      "description": "We offer tailored financing plans to make your dream of owning a home in Santillana a reality."
+    "strategicLocation": {
+      "title": "Strategic Location",
+      "description": "It is located on the variant of Cartagena, on the road that connects the cordiality of Turbaco, just 10 minutes from the city, 15 minutes from shopping centers such as Los Ejecutivos and 12 minutes from the Serena del Mar Hospital."
     }
   },
-  "Gallery": {
-    "title": "Explore the Beauty of Santillana",
-    "subtitle": "A glimpse into the lifestyle that awaits you."
+  "Gate": {
+    "title": "Luxury Gatehouse",
+    "imageAlt": "Luxury gatehouse of Santillana del Mar",
+    "logoAlt": "Santillana del Mar Logo"
   },
-  "DreamHomeVisualizer": {
-    "title": "Visualize Your Dream Home",
-    "subtitle": "Use our AI-powered tool to create a personalized rendering of your potential home. Select your preferences and see your vision come to life.",
-    "cardTitle": "Design Your Home",
-    "cardDescription": "Fill out the form below to get started.",
-    "styleLabel": "Architectural Style",
-    "stylePlaceholder": "e.g., Modern, Traditional",
-    "styleModern": "Modern",
-    "styleTraditional": "Traditional",
-    "styleRustic": "Rustic",
-    "styleCoastal": "Coastal",
-    "sizeLabel": "Home Size",
-    "sizePlaceholder": "e.g., Small, Medium",
-    "sizeSmall": "Small cozy cottage",
-    "sizeMedium": "Medium family home",
-    "sizeLarge": "Large estate",
-    "locationLabel": "Location Setting",
-    "locationPlaceholder": "e.g., Beachfront, Mountain",
-    "locationBeachfront": "Beachfront",
-    "locationMountain": "Mountain Retreat",
-    "locationRural": "Rural Countryside",
-    "locationSuburban": "Lush Suburban",
-    "featuresLabel": "Additional Features",
-    "featuresPlaceholder": "e.g., Infinity pool, wrap-around porch, rooftop garden",
-    "buttonGenerating": "Generating...",
-    "buttonGenerate": "Generate Image",
-    "loadingText": "Our AI is building your vision...",
-    "placeholderText": "Your generated dream home will appear here.",
-    "toastErrorTitle": "Oh no! Something went wrong.",
-    "toastErrorDescription": "There was a problem generating your dream home. Please try again."
+  "Amenities": {
+    "title": "Exclusive Amenities for You and Your Family",
+    "playgrounds": { "title": "Playgrounds and pet park" },
+    "pools": { "title": "Pool for adults and children" },
+    "gym": { "title": "Outdoor bio-healthy gym" },
+    "court": { "title": "Multiple court" },
+    "parking": { "title": "Parking for visitors and owners" },
+    "bonfire": { "title": "Bonfire for meetings" },
+    "bbq": { "title": "BBQ areas" },
+    "social": { "title": "Social hall" },
+    "rcu": { "title": "Solid Waste Collection (RCU)" },
+    "security": { "title": "Private security" }
+  },
+  "MoreInfo": {
+    "Islands": {
+      "ecologicalPaths": "Ecological Trails",
+      "ecologicalPathsAlt": "A person walking on an ecological trail",
+      "privateIslands": "2 Private Islands",
+      "privateIslandsAlt": "View of the private islands with lounge areas"
+    },
+    "Lots": {
+      "title": "Lots from 197 m2",
+      "pricePerM2": "VALUE PER M2",
+      "price": "420,000",
+      "backgroundImageAlt": "Aerial view of the lots"
+    },
+    "Payment": {
+      "title": "Payment Method",
+      "imageAlt": "Serene lake view",
+      "socialInterest": "Apply with our social interest rates.",
+      "separationTitle": "Separation:",
+      "separationValue": "$2,000,000",
+      "initialFeeTitle": "Initial Fee:",
+      "initialFeeValue": "can be financed up to 10 days before delivery with no interest.",
+      "financing": "Financing with our direct credit allies. Upon purchase of the lot, we deliver the plans and Renders with no architectural cost."
+    },
+    "Policies": {
+      "deliveryTitle": "Lot Delivery Policy",
+      "deliveryDescription": "The lot is delivered when the last payment of the initial fee is paid and the purchase promise is signed. And we proceed with the purchase and sale protocol and we give you the plans and renders for your home at no cost. At this point, the client can start the procedures to start the construction of their home.",
+      "constructionTitle": "Construction Policy",
+      "constructionDescription": "The land transfer is done upon payment of the full value of the lot, that is, when you pay your credit. And we proceed with the deed of the property. The owner has the obligation to present a project with the construction plans to the board of directors and/or administration for their approval and to start the construction of their home within a term no longer than one year, once the urbanization works have been completed.",
+      "imageAlt": "A large tree by the water"
+    },
+    "Services": {
+      "title": "Water, Electricity, and Gas Services",
+      "description": "The water service is supplied by Aguas de Cartagena, which guarantees its potability and constant supply. The OPERATOR OF THE CARIBBEAN NETWORK has its networks extended to our project, guaranteeing a high-quality energy service. The gas service has its main networks at the entrance of the project, which allows us to provide the corresponding connections to all our lots and common areas. We have our own wastewater treatment plant.",
+      "imageAlt": "A lush tropical plant near the water"
+    }
   },
   "Footer": {
-    "copyright": "© {year} Santillana Living. All rights reserved.",
-    "sitemap": "Sitemap",
-    "robots": "Robots.txt"
+    "logoAlt": "Santillana del Mar Logo",
+    "phone": "+57 3015098552",
+    "email": "GERENCIASANTILLANADELMAR@GMAIL.COM",
+    "address": "MANGA AV. JIMENEZ CALLE 28 #17-179",
+    "copyright": "© {year} Santillana del Mar. All rights reserved."
   }
 }
