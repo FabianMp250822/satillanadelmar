@@ -1,10 +1,10 @@
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
 export default async function Hero() {
-  const t = await getTranslator(undefined, 'Hero');
+  const t = await getTranslations('Hero');
   return (
     <section id="home" className="relative w-full h-[80vh] min-h-[500px] flex items-center justify-center">
       <Image

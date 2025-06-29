@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslator } from 'next-intl/server';
+import { getMessages, getTranslations } from 'next-intl/server';
 import '../globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
@@ -10,7 +10,7 @@ type Props = {
 };
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
-  const t = await getTranslator(locale, 'Metadata');
+  const t = await getTranslations({ locale, namespace: 'Metadata' });
 
   return {
     title: t('title'),

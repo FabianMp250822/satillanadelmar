@@ -1,10 +1,10 @@
 import { Mountain } from 'lucide-react';
 import Link from 'next/link';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import LanguageSwitcher from './LanguageSwitcher';
 
 export default async function Header() {
-  const t = await getTranslator(undefined, 'Header');
+  const t = await getTranslations('Header');
 
   return (
     <header className="px-4 lg:px-6 h-16 flex items-center sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">

@@ -1,9 +1,9 @@
 import { Mountain, Twitter, Github, Linkedin } from 'lucide-react';
 import Link from 'next/link';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
 export default async function Footer() {
-  const t = await getTranslator(undefined, 'Footer');
+  const t = await getTranslations('Footer');
   
   return (
     <footer className="bg-background border-t border-border/40 py-8">

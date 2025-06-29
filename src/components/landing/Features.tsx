@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Trees, ShieldCheck, AreaChart } from 'lucide-react';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
 const featureIcons = {
   amenities: <Trees className="h-10 w-10 text-primary" />,
@@ -9,7 +9,7 @@ const featureIcons = {
 };
 
 export default async function Features() {
-  const t = await getTranslator(undefined, 'Features');
+  const t = await getTranslations('Features');
   const features = (['amenities', 'lots', 'payment'] as const).map((key) => ({
     icon: featureIcons[key],
     title: t(`${key}.title`),
