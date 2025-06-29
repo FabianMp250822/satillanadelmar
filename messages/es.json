@@ -6,6 +6,12 @@
   "Header": {
     "title": "Santillana del Mar"
   },
+  "Navigation": {
+    "intro": "Introducción",
+    "amenities": "Amenidades",
+    "lots": "Lotes",
+    "contact": "Contacto"
+  },
   "Hero": {
     "title": "Convierte tu hogar soñado",
     "logoAlt": "Logo de Santillana del Mar",

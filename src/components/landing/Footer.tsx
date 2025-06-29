@@ -6,7 +6,7 @@ export default async function Footer() {
   const t = await getTranslations('Footer');
   
   return (
-    <footer className="bg-secondary border-t border-border/40 py-12 text-center">
+    <footer id="contact" className="bg-secondary border-t border-border/40 py-12 text-center">
       <div className="container mx-auto px-4 md:px-6 flex flex-col items-center justify-center">
         <Image src="https://placehold.co/200x100.png" data-ai-hint="logo gold" alt={t('logoAlt')} width={200} height={100} />
         

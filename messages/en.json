@@ -6,6 +6,12 @@
   "Header": {
     "title": "Santillana del Mar"
   },
+  "Navigation": {
+    "intro": "Introduction",
+    "amenities": "Amenities",
+    "lots": "Lots",
+    "contact": "Contact"
+  },
   "Hero": {
     "title": "Build your dream home",
     "logoAlt": "Santillana del Mar Logo",
