@@ -1,5 +1,4 @@
 import { getTranslations } from 'next-intl/server';
-import { Home } from 'lucide-react';
 
 export default async function Hero() {
   const t = await getTranslations('Hero');
@@ -23,10 +22,9 @@ export default async function Hero() {
         <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl font-headline uppercase">
           {t('title')}
         </h1>
-        <div className="mt-8 flex items-center justify-center gap-3">
-          <Home className="h-10 w-10 text-primary" />
-          <h2 className="text-3xl font-bold">{t('logoAlt')}</h2>
-        </div>
+        <p className="mt-6 text-xl md:text-2xl max-w-4xl">
+          {t('logoAlt')}
+        </p>
       </div>
       <div className="absolute bottom-0 left-0 w-full z-20">
         <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full block">
