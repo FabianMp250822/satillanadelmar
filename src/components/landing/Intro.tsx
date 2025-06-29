@@ -10,14 +10,14 @@ export default async function Intro() {
                         {t('title')}
                     </h2>
                 </div>
-                <div className="grid gap-10 md:grid-cols-2">
-                    <div className="space-y-4">
+                <div className="grid gap-10 md:grid-cols-2 max-w-5xl mx-auto">
+                    <div className="space-y-4 text-center">
                         <h3 className="text-2xl font-bold font-headline">{t('urbanDevelopment.title')}</h3>
                         <p className="text-foreground/80">
                             {t('urbanDevelopment.description')}
                         </p>
                     </div>
-                    <div className="space-y-4">
+                    <div className="space-y-4 text-center">
                         <h3 className="text-2xl font-bold font-headline">{t('strategicLocation.title')}</h3>
                         <p className="text-foreground/80">
                             {t('strategicLocation.description')}

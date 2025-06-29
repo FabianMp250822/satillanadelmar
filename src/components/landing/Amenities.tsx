@@ -30,17 +30,19 @@ export default async function Amenities() {
             {t('title')}
           </h2>
         </div>
-        <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-5">
-          {features.map((feature, index) => (
-            <Card key={index} className="flex flex-col items-center text-center p-6 bg-transparent border-primary/50 hover:shadow-lg transition-shadow">
-              <CardHeader className="p-0 mb-4">
-                {feature.icon}
-              </CardHeader>
-              <CardContent className="p-0">
-                <p className="text-foreground/80 font-bold">{feature.title}</p>
-              </CardContent>
-            </Card>
-          ))}
+        <div className="text-center">
+          <div className="inline-grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+            {features.map((feature, index) => (
+              <Card key={index} className="flex flex-col items-center text-center p-6 bg-transparent border-primary/50 hover:shadow-lg transition-shadow">
+                <CardHeader className="p-0 mb-4">
+                  {feature.icon}
+                </CardHeader>
+                <CardContent className="p-0">
+                  <p className="text-foreground/80">{feature.title}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
       </div>
     </section>

@@ -10,7 +10,7 @@ export default async function MoreInfo() {
       {/* Islands Section */}
       <section id="islands" className="w-full py-12 md:py-24 lg:py-32">
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
-          <div className="grid gap-8 md:grid-cols-2">
+          <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
             <div className="flex flex-col items-center">
               <Image src="https://placehold.co/600x400.png" alt={t('Islands.ecologicalPathsAlt')} width={600} height={400} className="rounded-lg object-cover" data-ai-hint="ecological path" />
               <h3 className="mt-4 text-2xl font-bold font-headline">{t('Islands.ecologicalPaths')}</h3>
@@ -38,13 +38,13 @@ export default async function MoreInfo() {
       {/* Payment Section */}
       <section id="payment" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
         <div className="container px-4 md:px-6">
-            <Card className="bg-background/50 p-8">
-                <CardContent className="flex flex-col md:flex-row items-center justify-between gap-8 p-0">
-                    <div className='md:w-1/3'>
+            <Card className="bg-background/50 p-8 max-w-6xl mx-auto">
+                <CardContent className="flex flex-col md:flex-row items-center justify-center gap-8 p-0">
+                    <div className='md:w-1/3 text-center'>
                         <h2 className="text-3xl font-bold font-headline text-primary mb-4">{t('Payment.title')}</h2>
-                        <Image src="https://placehold.co/600x400.png" alt={t('Payment.imageAlt')} width={600} height={400} className="rounded-lg" data-ai-hint="serene lake sunset" />
+                        <Image src="https://placehold.co/600x400.png" alt={t('Payment.imageAlt')} width={600} height={400} className="rounded-lg mx-auto" data-ai-hint="serene lake sunset" />
                     </div>
-                    <div className="md:w-2/3 space-y-4 text-lg">
+                    <div className="md:w-2/3 space-y-4 text-lg text-center md:text-left">
                         <p>{t('Payment.socialInterest')}</p>
                         <p><strong className='text-primary'>{t('Payment.separationTitle')}</strong> {t('Payment.separationValue')}</p>
                         <p><strong className='text-primary'>{t('Payment.initialFeeTitle')}</strong> {t('Payment.initialFeeValue')}</p>
@@ -58,8 +58,8 @@ export default async function MoreInfo() {
       {/* Policies & Services Section */}
       <section id="policies" className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <div className="container px-4 md:px-6 space-y-16">
-          <div className="grid gap-10 md:grid-cols-2 items-center">
-            <div className="space-y-4">
+          <div className="grid gap-10 md:grid-cols-2 items-center max-w-6xl mx-auto">
+            <div className="space-y-4 text-center md:text-left">
               <h3 className="text-2xl font-bold font-headline text-primary">{t('Policies.deliveryTitle')}</h3>
               <p className="text-foreground/80">{t('Policies.deliveryDescription')}</p>
               <h3 className="text-2xl font-bold font-headline text-primary mt-8">{t('Policies.constructionTitle')}</h3>
@@ -68,9 +68,9 @@ export default async function MoreInfo() {
             <Image src="https://placehold.co/600x800.png" alt={t('Policies.imageAlt')} width={600} height={800} className="rounded-lg" data-ai-hint="tree water" />
           </div>
 
-          <div className="grid gap-10 md:grid-cols-2 items-center">
+          <div className="grid gap-10 md:grid-cols-2 items-center max-w-6xl mx-auto">
              <Image src="https://placehold.co/600x600.png" alt={t('Services.imageAlt')} width={600} height={600} className="rounded-lg" data-ai-hint="tropical plant" />
-            <div className="space-y-4">
+            <div className="space-y-4 text-center md:text-left">
               <h3 className="text-2xl font-bold font-headline text-primary">{t('Services.title')}</h3>
               <p className="text-foreground/80">{t('Services.description')}</p>
             </div>
