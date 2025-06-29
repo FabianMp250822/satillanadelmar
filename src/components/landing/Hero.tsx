@@ -3,16 +3,21 @@ import { getTranslations } from 'next-intl/server';
 
 export default async function Hero() {
   const t = await getTranslations('Hero');
+  const videoId = 'uvJBr8jquC0';
+  // Parameters for a muted, looping, autoplaying background video with no controls
+  const embedParams = `?autoplay=1&mute=1&loop=1&playlist=${videoId}&controls=0&showinfo=0&modestbranding=1&rel=0`;
+  const embedUrl = `https://www.youtube.com/embed/${videoId}${embedParams}`;
+
   return (
-    <section id="home" className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center text-foreground">
-      <Image
-        src="https://placehold.co/1920x1080.png"
-        alt={t('backgroundImageAlt')}
-        fill
-        className="absolute inset-0 z-0 object-cover"
-        data-ai-hint="serene landscape"
-        priority
-      />
+    <section id="home" className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center text-foreground overflow-hidden">
+      <iframe
+        src={embedUrl}
+        frameBorder="0"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+        title={t('backgroundImageAlt')}
+        className="absolute top-1/2 left-1/2 w-auto min-w-full min-h-full max-w-none -translate-x-1/2 -translate-y-1/2 z-0"
+      ></iframe>
       <div className="absolute inset-0 bg-black/50 z-10" />
       <div className="relative z-20 container px-4 md:px-6 text-center flex flex-col items-center">
         <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl font-headline uppercase">
