@@ -1,4 +1,3 @@
-
 {
   "Metadata": {
     "title": "Santillana del Mar",
@@ -15,7 +14,7 @@
     "portfolio": "Portafolio"
   },
   "Hero": {
-    "title": "Convierte tu hogar soñado",
+    "title": "Construye la casa de tus sueños",
     "logoAlt": "Tu hogar soñado donde la exclusividad se encuentra con la naturaleza.",
     "backgroundImageAlt": "Vista aérea de Santillana del Mar"
   },
@@ -23,7 +22,7 @@
     "title": "¡Haz realidad tus sueños en Santillana del Mar!",
     "urbanDevelopment": {
       "title": "Desarrollo Urbano",
-      "description": "Desarrollo urbano attrs. Un lugar exclusivo disenado para ofrecer una excelente calidad de vida, tranquilidad y un entorno natural, con vías internas que conducen a una vista privilegiada de la ciénaga, ideal para practicar deportes acuáticos y pesca."
+      "description": "Un lugar exclusivo diseñado para ofrecer una excelente calidad de vida, tranquilidad y un entorno natural, con vías internas que conducen a una vista privilegiada de la ciénaga, ideal para practicar deportes acuáticos y pesca."
     },
     "strategicLocation": {
       "title": "Ubicación Estratégica",
@@ -37,16 +36,36 @@
   },
   "Amenities": {
     "title": "Amenidades Exclusivas para Ti y Tu Familia",
-    "playgrounds": { "title": "Juegos infantiles y parque para mascotas" },
-    "pools": { "title": "Piscina para adultos y para niños" },
-    "gym": { "title": "Gimnasio biosaludable al aire libre" },
-    "court": { "title": "Cancha Múltiple" },
-    "parking": { "title": "Parqueadero para visitantes y propietarios" },
-    "bonfire": { "title": "Fogón para reuniones" },
-    "bbq": { "title": "Zonas BBQ" },
-    "social": { "title": "Salón social" },
-    "rcu": { "title": "Recolección de Residuos Sólidos (RCU)" },
-    "security": { "title": "Seguridad privada" }
+    "playgrounds": {
+      "title": "Juegos infantiles y parque para mascotas"
+    },
+    "pools": {
+      "title": "Piscina para adultos y para niños"
+    },
+    "gym": {
+      "title": "Gimnasio biosaludable al aire libre"
+    },
+    "court": {
+      "title": "Cancha Múltiple"
+    },
+    "parking": {
+      "title": "Parqueadero para visitantes y propietarios"
+    },
+    "bonfire": {
+      "title": "Zona de fogata"
+    },
+    "bbq": {
+      "title": "Zonas BBQ"
+    },
+    "social": {
+      "title": "Salón social"
+    },
+    "rcu": {
+      "title": "Recolección de Residuos Sólidos (RCU)"
+    },
+    "security": {
+      "title": "Seguridad privada"
+    }
   },
   "MoreInfo": {
     "Islands": {
@@ -56,31 +75,31 @@
       "privateIslandsAlt": "Vista de las islas privadas con zonas de descanso"
     },
     "Lots": {
-      "title": "Lotes desde 197 m2",
-      "pricePerM2": "VALOR M2",
+      "title": "Lotes desde 197 m²",
+      "pricePerM2": "VALOR M²",
       "price": "420.000",
       "backgroundImageAlt": "Vista aérea de los lotes"
     },
     "Payment": {
       "title": "Forma de Pago",
       "imageAlt": "Vista serena de un lago",
-      "socialInterest": "Aplicar con nuestras tasas de interés social.",
+      "socialInterest": "Aplica con nuestras tasas de interés social.",
       "separationTitle": "Separación:",
       "separationValue": "$2.000.000",
       "initialFeeTitle": "Cuota inicial:",
-      "initialFeeValue": "se puede financiar hasta 10 días antes de la entrega sin intereses.",
-      "financing": "Financiación con nuestros aliados de crédito directo. Por la compra del lote te entregamos los planos y Renders sin costo de arquitectura."
+      "initialFeeValue": "puede ser financiada hasta 10 días antes de la entrega sin intereses.",
+      "financing": "Financiación con nuestros aliados de crédito directo. Por la compra del lote le entregamos los planos y Renders sin costo de arquitectura."
     },
     "Policies": {
       "deliveryTitle": "Política de Entrega del Lote",
-      "deliveryDescription": "El lote se entrega cuando se pague la última cuota de la inicial y se tenga perfeccionada la promesa de compra y venta. Y procedemos con el protocolo de compra y venta y te entregamos los planos y renders de tu casa sin costo. En este punto el cliente puede iniciar los trámites para iniciar la construcción de su vivienda.",
+      "deliveryDescription": "El lote se entrega cuando se pague la última cuota de la inicial y se tenga perfeccionada la promesa de compra y venta. En ese momento, procedemos con el protocolo de compra y venta y le entregamos los planos y renders de su casa sin costo. En este punto, el cliente puede iniciar los trámites para comenzar la construcción de su vivienda.",
       "constructionTitle": "Política de Construcción",
-      "constructionDescription": "El traspaso del lote se hace bajo el pago del valor total del lote, es decir cuando pagues tu crédito. Y procedemos a la escritura del inmueble. El propietario tiene la obligación de presentar un proyecto con los planos de construcción a la junta directiva y/o administración para su aprobación y poder iniciar la construcción de su vivienda en un término no mayor a un año, una vez entregada las obras de urbanismo.",
+      "constructionDescription": "El traspaso del lote se hace bajo el pago del valor total del lote, es decir, cuando pague su crédito. Luego, procedemos a la escritura del inmueble. El propietario tiene la obligación de presentar un proyecto con los planos de construcción a la junta directiva y/o administración para su aprobación y poder iniciar la construcción de su vivienda en un término no mayor a un año, una vez entregadas las obras de urbanismo.",
       "imageAlt": "Un gran árbol junto al agua"
     },
     "Services": {
       "title": "Servicios de Agua, Luz y Gas",
-      "description": "El servicio de agua lo suministra Aguas de Cartagena, lo que garantiza su potabilidad y suministro constante. El OPERADOR DE RED DE LA COSTA tiene sus redes extendidas hasta nuestro proyecto, garantizando un servicio de energía de alta calidad. El servicio de gas cuenta con sus redes principales a la entrada del proyecto, lo que nos permite dar las acometidas correspondientes a todos nuestros lotes y zonas comunes. Contamos con nuestra propia planta de tratamiento de aguas residuales.",
+      "description": "El servicio de agua lo suministra Aguas de Cartagena, lo que garantiza su potabilidad y suministro constante. El OPERADOR DE RED DEL CARIBE tiene sus redes extendidas hasta nuestro proyecto, garantizando un servicio de energía de alta calidad. El servicio de gas cuenta con sus redes principales a la entrada del proyecto, lo que nos permite dar las acometidas correspondientes a todos nuestros lotes y zonas comunes. Contamos con nuestra propia planta de tratamiento de aguas residuales.",
       "imageAlt": "Una planta tropical exuberante cerca del agua"
     }
   },
@@ -123,12 +142,41 @@
     "title": "Galería de Fotos",
     "subtitle": "Explora imágenes reales de nuestra hermosa propiedad y sus alrededores."
   },
+  "ContactSection": {
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes preguntas? Nos encantaría saber de ti. Completa el formulario a continuación.",
+    "Form": {
+      "name": "Nombre Completo",
+      "namePlaceholder": "Tu nombre completo",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu.correo@ejemplo.com",
+      "phone": "Número de Teléfono",
+      "phonePlaceholder": "Tu número de contacto",
+      "message": "Mensaje",
+      "messagePlaceholder": "Dinos cómo podemos ayudarte...",
+      "submit": "Enviar Mensaje",
+      "loading": "Enviando..."
+    },
+    "Toast": {
+      "successTitle": "¡Mensaje Enviado!",
+      "successDescription": "Gracias por contactarnos. Te responderemos en breve.",
+      "errorTitle": "Error al Enviar",
+      "errorDescription": "Algo salió mal. Por favor, inténtalo de nuevo."
+    },
+    "validation": {
+      "nameRequired": "El nombre completo es obligatorio.",
+      "emailInvalid": "Por favor, ingresa una dirección de correo electrónico válida.",
+      "phoneInvalid": "Por favor, ingresa un número de teléfono válido.",
+      "messageRequired": "El mensaje debe tener al menos 10 caracteres.",
+      "messageTooLong": "El mensaje no puede exceder los 500 caracteres."
+    }
+  },
   "Footer": {
     "logoAlt": "Santillana del Mar",
     "slogan": "Tu hogar soñado donde la exclusividad se encuentra con la naturaleza.",
     "quickLinksTitle": "Enlaces Rápidos",
     "contactTitle": "Contacto",
-    "phone": "+573015098552",
+    "phone": "+57 3015098552",
     "email": "GERENCIASANTILLANADELMAR@GMAIL.COM",
     "address": "MANGA AV. JIMENEZ CALLE 28 #17-179",
     "copyright": "© {year} Santillana del Mar. Todos los derechos reservados."
