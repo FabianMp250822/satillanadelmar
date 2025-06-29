@@ -12,6 +12,7 @@ export default async function Header() {
     { href: '#intro', label: tNav('intro') },
     { href: '#amenities', label: tNav('amenities') },
     { href: '#lots', label: tNav('lots') },
+    { href: '#portfolio', label: tNav('portfolio') },
     { href: '#contact', label: tNav('contact') },
   ];
 

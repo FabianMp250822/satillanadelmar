@@ -10,7 +10,8 @@
     "intro": "Introducción",
     "amenities": "Amenidades",
     "lots": "Lotes",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "portfolio": "Portafolio"
   },
   "Hero": {
     "title": "Convierte tu hogar soñado",
@@ -81,6 +82,10 @@
       "description": "El servicio de agua lo suministra Aguas de Cartagena, lo que garantiza su potabilidad y suministro constante. El OPERADOR DE RED DE LA COSTA tiene sus redes extendidas hasta nuestro proyecto, garantizando un servicio de energía de alta calidad. El servicio de gas cuenta con sus redes principales a la entrada del proyecto, lo que nos permite dar las acometidas correspondientes a todos nuestros lotes y zonas comunes. Contamos con nuestra propia planta de tratamiento de aguas residuales.",
       "imageAlt": "Una planta tropical exuberante cerca del agua"
     }
+  },
+  "Portfolio": {
+    "title": "Nuestro Portafolio",
+    "downloadButton": "Descargar Portafolio"
   },
   "Footer": {
     "logoAlt": "Logo de Santillana del Mar",

@@ -10,7 +10,8 @@
     "intro": "Introduction",
     "amenities": "Amenities",
     "lots": "Lots",
-    "contact": "Contact"
+    "contact": "Contact",
+    "portfolio": "Portfolio"
   },
   "Hero": {
     "title": "Build your dream home",
@@ -81,6 +82,10 @@
       "description": "The water service is supplied by Aguas de Cartagena, which guarantees its potability and constant supply. The OPERATOR OF THE CARIBBEAN NETWORK has its networks extended to our project, guaranteeing a high-quality energy service. The gas service has its main networks at the entrance of the project, which allows us to provide the corresponding connections to all our lots and common areas. We have our own wastewater treatment plant.",
       "imageAlt": "A lush tropical plant near the water"
     }
+  },
+  "Portfolio": {
+    "title": "Our Portfolio",
+    "downloadButton": "Download Portfolio"
   },
   "Footer": {
     "logoAlt": "Santillana del Mar Logo",
