@@ -15,7 +15,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Send } from 'lucide-react';
 
 export default function ContactForm() {
-    const t = useTranslations('Contact');
+    const t = useTranslations('ContactSection');
     const { toast } = useToast();
     const [isSubmitting, setIsSubmitting] = useState(false);
 
