@@ -1,0 +1,72 @@
+{
+  "Metadata": {
+    "title": "Santillana Living",
+    "description": "Encuentra la casa de tus sueños en el sereno paisaje de Santillana del Mar."
+  },
+  "Header": {
+    "features": "Características",
+    "gallery": "Galería",
+    "visualizer": "Visualizador"
+  },
+  "Hero": {
+    "title": "Descubre Santillana Living",
+    "subtitle": "Tu escape sereno al abrazo de la naturaleza. Construye la casa de tus sueños en el corazón de Santillana del Mar.",
+    "cta": "Visualiza la Casa de tus Sueños"
+  },
+  "Features": {
+    "title": "Una Experiencia de Vida Inigualable",
+    "subtitle": "Santillana Living es más que un lugar para vivir, es un estilo de vida.",
+    "amenities": {
+      "title": "Exuberantes Amenidades",
+      "description": "Disfruta del acceso a parques privados, senderos para caminar y jardines comunitarios, todo dentro de una comunidad cerrada y segura."
+    },
+    "lots": {
+      "title": "Amplios Lotes",
+      "description": "Elige entre una variedad de tamaños de lote para construir tu casa personalizada, con amplio espacio para jardines, piscinas y más."
+    },
+    "payment": {
+      "title": "Opciones de Pago Flexibles",
+      "description": "Ofrecemos planes de financiación a medida para hacer realidad tu sueño de tener una casa en Santillana."
+    }
+  },
+  "Gallery": {
+    "title": "Explora la Belleza de Santillana",
+    "subtitle": "Un vistazo al estilo de vida que te espera."
+  },
+  "DreamHomeVisualizer": {
+    "title": "Visualiza tu Casa de Ensueño",
+    "subtitle": "Usa nuestra herramienta con IA para crear una representación personalizada de tu posible hogar. Selecciona tus preferencias y ve cómo tu visión cobra vida.",
+    "cardTitle": "Diseña tu Hogar",
+    "cardDescription": "Completa el siguiente formulario para comenzar.",
+    "styleLabel": "Estilo Arquitectónico",
+    "stylePlaceholder": "ej., Moderno, Tradicional",
+    "styleModern": "Moderno",
+    "styleTraditional": "Tradicional",
+    "styleRustic": "Rústico",
+    "styleCoastal": "Costero",
+    "sizeLabel": "Tamaño de la Casa",
+    "sizePlaceholder": "ej., Pequeño, Mediano",
+    "sizeSmall": "Pequeña casa de campo acogedora",
+    "sizeMedium": "Casa familiar mediana",
+    "sizeLarge": "Gran finca",
+    "locationLabel": "Ubicación",
+    "locationPlaceholder": "ej., Frente al Mar, Montaña",
+    "locationBeachfront": "Frente al mar",
+    "locationMountain": "Retiro de montaña",
+    "locationRural": "Campo rural",
+    "locationSuburban": "Suburbano exuberante",
+    "featuresLabel": "Características Adicionales",
+    "featuresPlaceholder": "ej., Piscina infinita, porche envolvente, jardín en la azotea",
+    "buttonGenerating": "Generando...",
+    "buttonGenerate": "Generar Imagen",
+    "loadingText": "Nuestra IA está construyendo tu visión...",
+    "placeholderText": "La casa de tus sueños generada aparecerá aquí.",
+    "toastErrorTitle": "¡Oh no! Algo salió mal.",
+    "toastErrorDescription": "Hubo un problema al generar la casa de tus sueños. Por favor, inténtalo de nuevo."
+  },
+  "Footer": {
+    "copyright": "© {year} Santillana Living. Todos los derechos reservados.",
+    "sitemap": "Mapa del sitio",
+    "robots": "Robots.txt"
+  }
+}

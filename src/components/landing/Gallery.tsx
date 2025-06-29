@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
+import { useTranslations } from 'next-intl';
 
 const galleryImages = [
   { src: 'https://placehold.co/800x600.png', alt: 'Property View 1', hint: 'modern house exterior' },
@@ -13,15 +14,17 @@ const galleryImages = [
 ];
 
 export default function Gallery() {
+  const t = useTranslations('Gallery');
+
   return (
     <section id="gallery" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
-            Explore the Beauty of Santillana
+            {t('title')}
           </h2>
           <p className="max-w-[900px] text-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto mt-4">
-            A glimpse into the lifestyle that awaits you.
+            {t('subtitle')}
           </p>
         </div>
         <Carousel className="w-full max-w-4xl mx-auto" opts={{ loop: true }}>

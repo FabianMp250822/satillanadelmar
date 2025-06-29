@@ -1,0 +1,72 @@
+{
+  "Metadata": {
+    "title": "Santillana Living",
+    "description": "Find your dream home in the serene landscape of Santillana del Mar."
+  },
+  "Header": {
+    "features": "Features",
+    "gallery": "Gallery",
+    "visualizer": "Visualizer"
+  },
+  "Hero": {
+    "title": "Discover Santillana Living",
+    "subtitle": "Your serene escape into nature's embrace. Build your dream home in the heart of Santillana del Mar.",
+    "cta": "Visualize Your Dream Home"
+  },
+  "Features": {
+    "title": "An Unparalleled Living Experience",
+    "subtitle": "Santillana Living is more than just a place to live, it's a lifestyle.",
+    "amenities": {
+      "title": "Lush Amenities",
+      "description": "Enjoy access to private parks, walking trails, and community gardens, all within a secure, gated community."
+    },
+    "lots": {
+      "title": "Spacious Lot Sizes",
+      "description": "Choose from a variety of lot sizes to build your custom home, with ample space for gardens, pools, and more."
+    },
+    "payment": {
+      "title": "Flexible Payment Options",
+      "description": "We offer tailored financing plans to make your dream of owning a home in Santillana a reality."
+    }
+  },
+  "Gallery": {
+    "title": "Explore the Beauty of Santillana",
+    "subtitle": "A glimpse into the lifestyle that awaits you."
+  },
+  "DreamHomeVisualizer": {
+    "title": "Visualize Your Dream Home",
+    "subtitle": "Use our AI-powered tool to create a personalized rendering of your potential home. Select your preferences and see your vision come to life.",
+    "cardTitle": "Design Your Home",
+    "cardDescription": "Fill out the form below to get started.",
+    "styleLabel": "Architectural Style",
+    "stylePlaceholder": "e.g., Modern, Traditional",
+    "styleModern": "Modern",
+    "styleTraditional": "Traditional",
+    "styleRustic": "Rustic",
+    "styleCoastal": "Coastal",
+    "sizeLabel": "Home Size",
+    "sizePlaceholder": "e.g., Small, Medium",
+    "sizeSmall": "Small cozy cottage",
+    "sizeMedium": "Medium family home",
+    "sizeLarge": "Large estate",
+    "locationLabel": "Location Setting",
+    "locationPlaceholder": "e.g., Beachfront, Mountain",
+    "locationBeachfront": "Beachfront",
+    "locationMountain": "Mountain Retreat",
+    "locationRural": "Rural Countryside",
+    "locationSuburban": "Lush Suburban",
+    "featuresLabel": "Additional Features",
+    "featuresPlaceholder": "e.g., Infinity pool, wrap-around porch, rooftop garden",
+    "buttonGenerating": "Generating...",
+    "buttonGenerate": "Generate Image",
+    "loadingText": "Our AI is building your vision...",
+    "placeholderText": "Your generated dream home will appear here.",
+    "toastErrorTitle": "Oh no! Something went wrong.",
+    "toastErrorDescription": "There was a problem generating your dream home. Please try again."
+  },
+  "Footer": {
+    "copyright": "© {year} Santillana Living. All rights reserved.",
+    "sitemap": "Sitemap",
+    "robots": "Robots.txt"
+  }
+}

@@ -6,6 +6,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import Image from 'next/image';
 import { dreamHomeVisualizer, DreamHomeVisualizerInput } from '@/ai/flows/dream-home-visualizer';
+import { useTranslations } from 'next-intl';
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -24,6 +25,7 @@ const formSchema = z.object({
 });
 
 export default function DreamHomeVisualizer() {
+  const t = useTranslations('DreamHomeVisualizer');
   const [loading, setLoading] = useState(false);
   const [imageUrl, setImageUrl] = useState<string | null>(null);
   const { toast } = useToast();
@@ -48,8 +50,8 @@ export default function DreamHomeVisualizer() {
       console.error('Error generating image:', error);
       toast({
         variant: "destructive",
-        title: "Oh no! Something went wrong.",
-        description: "There was a problem generating your dream home. Please try again.",
+        title: t('toastErrorTitle'),
+        description: t('toastErrorDescription'),
       });
     } finally {
       setLoading(false);
@@ -62,16 +64,16 @@ export default function DreamHomeVisualizer() {
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
-              Visualize Your Dream Home
+              {t('title')}
             </h2>
             <p className="max-w-[600px] text-foreground/80 md:text-xl/relaxed">
-              Use our AI-powered tool to create a personalized rendering of your potential home. Select your preferences and see your vision come to life.
+              {t('subtitle')}
             </p>
           </div>
           <Card>
             <CardHeader>
-              <CardTitle>Design Your Home</CardTitle>
-              <CardDescription>Fill out the form below to get started.</CardDescription>
+              <CardTitle>{t('cardTitle')}</CardTitle>
+              <CardDescription>{t('cardDescription')}</CardDescription>
             </CardHeader>
             <CardContent>
               <Form {...form}>
@@ -81,18 +83,18 @@ export default function DreamHomeVisualizer() {
                     name="style"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Architectural Style</FormLabel>
+                        <FormLabel>{t('styleLabel')}</FormLabel>
                         <Select onValueChange={field.onChange} defaultValue={field.value}>
                           <FormControl>
                             <SelectTrigger>
-                              <SelectValue placeholder="e.g., Modern, Traditional" />
+                              <SelectValue placeholder={t('stylePlaceholder')} />
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="Modern">Modern</SelectItem>
-                            <SelectItem value="Traditional">Traditional</SelectItem>
-                            <SelectItem value="Rustic">Rustic</SelectItem>
-                            <SelectItem value="Coastal">Coastal</SelectItem>
+                            <SelectItem value="Modern">{t('styleModern')}</SelectItem>
+                            <SelectItem value="Traditional">{t('styleTraditional')}</SelectItem>
+                            <SelectItem value="Rustic">{t('styleRustic')}</SelectItem>
+                            <SelectItem value="Coastal">{t('styleCoastal')}</SelectItem>
                           </SelectContent>
                         </Select>
                         <FormMessage />
@@ -104,17 +106,17 @@ export default function DreamHomeVisualizer() {
                     name="size"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Home Size</FormLabel>
+                        <FormLabel>{t('sizeLabel')}</FormLabel>
                         <Select onValueChange={field.onChange} defaultValue={field.value}>
                           <FormControl>
                             <SelectTrigger>
-                              <SelectValue placeholder="e.g., Small, Medium" />
+                              <SelectValue placeholder={t('sizePlaceholder')} />
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="Small">Small cozy cottage</SelectItem>
-                            <SelectItem value="Medium">Medium family home</SelectItem>
-                            <SelectItem value="Large">Large estate</SelectItem>
+                            <SelectItem value="Small">{t('sizeSmall')}</SelectItem>
+                            <SelectItem value="Medium">{t('sizeMedium')}</SelectItem>
+                            <SelectItem value="Large">{t('sizeLarge')}</SelectItem>
                           </SelectContent>
                         </Select>
                         <FormMessage />
@@ -126,18 +128,18 @@ export default function DreamHomeVisualizer() {
                     name="location"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Location Setting</FormLabel>
+                        <FormLabel>{t('locationLabel')}</FormLabel>
                         <Select onValueChange={field.onChange} defaultValue={field.value}>
                           <FormControl>
                             <SelectTrigger>
-                              <SelectValue placeholder="e.g., Beachfront, Mountain" />
+                              <SelectValue placeholder={t('locationPlaceholder')} />
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="Beachfront">Beachfront</SelectItem>
-                            <SelectItem value="Mountain">Mountain Retreat</SelectItem>
-                            <SelectItem value="Rural">Rural Countryside</SelectItem>
-                            <SelectItem value="Suburban">Lush Suburban</SelectItem>
+                            <SelectItem value="Beachfront">{t('locationBeachfront')}</SelectItem>
+                            <SelectItem value="Mountain">{t('locationMountain')}</SelectItem>
+                            <SelectItem value="Rural">{t('locationRural')}</SelectItem>
+                            <SelectItem value="Suburban">{t('locationSuburban')}</SelectItem>
                           </SelectContent>
                         </Select>
                         <FormMessage />
@@ -149,16 +151,16 @@ export default function DreamHomeVisualizer() {
                     name="additionalFeatures"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Additional Features</FormLabel>
+                        <FormLabel>{t('featuresLabel')}</FormLabel>
                         <FormControl>
-                          <Textarea placeholder="e.g., Infinity pool, wrap-around porch, rooftop garden" {...field} />
+                          <Textarea placeholder={t('featuresPlaceholder')} {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
                     )}
                   />
                   <Button type="submit" disabled={loading} className="w-full">
-                    {loading ? 'Generating...' : <> <Wand2 className="mr-2 h-4 w-4" /> Generate Image</>}
+                    {loading ? t('buttonGenerating') : <> <Wand2 className="mr-2 h-4 w-4" /> {t('buttonGenerate')}</>}
                   </Button>
                 </form>
               </Form>
@@ -170,7 +172,7 @@ export default function DreamHomeVisualizer() {
             {loading ? (
               <div className="flex flex-col items-center justify-center space-y-4 p-4">
                 <Skeleton className="h-48 w-48 md:h-64 md:w-64 lg:h-80 lg:w-80 rounded-xl" />
-                <p className="text-foreground/80">Our AI is building your vision...</p>
+                <p className="text-foreground/80">{t('loadingText')}</p>
               </div>
             ) : imageUrl ? (
               <Image
@@ -183,7 +185,7 @@ export default function DreamHomeVisualizer() {
             ) : (
               <div className="text-center text-foreground/60 p-8">
                 <Wand2 className="mx-auto h-12 w-12 mb-4"/>
-                <p>Your generated dream home will appear here.</p>
+                <p>{t('placeholderText')}</p>
               </div>
             )}
           </Card>

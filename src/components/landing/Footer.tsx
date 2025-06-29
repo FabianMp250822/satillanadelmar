@@ -1,7 +1,10 @@
 import { Mountain, Twitter, Github, Linkedin } from 'lucide-react';
 import Link from 'next/link';
+import { getTranslator } from 'next-intl/server';
 
-export default function Footer() {
+export default async function Footer() {
+  const t = await getTranslator(undefined, 'Footer');
+  
   return (
     <footer className="bg-background border-t border-border/40 py-8">
       <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between">
@@ -10,13 +13,13 @@ export default function Footer() {
           <span className="ml-2 text-lg font-bold font-headline">Santillana Living</span>
         </div>
         <div className="text-center md:text-left mb-4 md:mb-0">
-          <p className="text-sm text-foreground/80">&copy; {new Date().getFullYear()} Santillana Living. All rights reserved.</p>
+          <p className="text-sm text-foreground/80">{t('copyright', {year: new Date().getFullYear()})}</p>
           <div className="mt-2 space-x-4">
             <Link href="/sitemap.xml" className="text-sm text-foreground/60 hover:text-primary" prefetch={false}>
-              Sitemap
+              {t('sitemap')}
             </Link>
             <Link href="/robots.txt" className="text-sm text-foreground/60 hover:text-primary" prefetch={false}>
-              Robots.txt
+              {t('robots')}
             </Link>
           </div>
         </div>
