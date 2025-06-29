@@ -1,5 +1,5 @@
 import { Mountain } from 'lucide-react';
-import Link from 'next/link';
+import { Link } from 'next-intl/navigation';
 import { getTranslations } from 'next-intl/server';
 import LanguageSwitcher from './LanguageSwitcher';
 

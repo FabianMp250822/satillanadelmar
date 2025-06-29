@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import Link from 'next/link';
+import { Link } from 'next-intl/navigation';
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 

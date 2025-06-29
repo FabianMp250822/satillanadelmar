@@ -4,8 +4,15 @@ import Features from '@/components/landing/Features';
 import Gallery from '@/components/landing/Gallery';
 import DreamHomeVisualizer from '@/components/landing/DreamHomeVisualizer';
 import Footer from '@/components/landing/Footer';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
-export default function Home() {
+type Props = {
+  params: {locale: string};
+};
+
+export default function Home({ params: {locale} }: Props) {
+  unstable_setRequestLocale(locale);
+  
   return (
     <div className="flex flex-col min-h-dvh bg-background">
       <Header />

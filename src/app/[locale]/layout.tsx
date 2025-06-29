@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import '../globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
@@ -9,7 +9,14 @@ type Props = {
   params: { locale: string };
 };
 
+const locales = ['en', 'es'];
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({locale}));
+}
+
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
+  unstable_setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'Metadata' });
 
   return {
@@ -22,6 +29,7 @@ export default async function RootLayout({
   children,
   params: { locale }
 }: Readonly<Props>) {
+  unstable_setRequestLocale(locale);
   const messages = await getMessages();
   
   return (
