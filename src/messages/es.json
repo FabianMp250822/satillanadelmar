@@ -1,4 +1,3 @@
-
 {
   "Metadata": {
     "title": "Santillana del Mar",
@@ -37,16 +36,36 @@
   },
   "Amenities": {
     "title": "Amenidades Exclusivas para Ti y Tu Familia",
-    "playgrounds": { "title": "Juegos infantiles y parque para mascotas" },
-    "pools": { "title": "Piscina para adultos y para niños" },
-    "gym": { "title": "Gimnasio biosaludable al aire libre" },
-    "court": { "title": "Cancha Múltiple" },
-    "parking": { "title": "Parqueadero para visitantes y propietarios" },
-    "bonfire": { "title": "Fogón para reuniones" },
-    "bbq": { "title": "Zonas BBQ" },
-    "social": { "title": "Salón social" },
-    "rcu": { "title": "Recolección de Residuos Sólidos (RCU)" },
-    "security": { "title": "Seguridad privada" }
+    "playgrounds": {
+      "title": "Juegos infantiles y parque para mascotas"
+    },
+    "pools": {
+      "title": "Piscina para adultos y para niños"
+    },
+    "gym": {
+      "title": "Gimnasio biosaludable al aire libre"
+    },
+    "court": {
+      "title": "Cancha Múltiple"
+    },
+    "parking": {
+      "title": "Parqueadero para visitantes y propietarios"
+    },
+    "bonfire": {
+      "title": "Fogón para reuniones"
+    },
+    "bbq": {
+      "title": "Zonas BBQ"
+    },
+    "social": {
+      "title": "Salón social"
+    },
+    "rcu": {
+      "title": "Recolección de Residuos Sólidos (RCU)"
+    },
+    "security": {
+      "title": "Seguridad privada"
+    }
   },
   "MoreInfo": {
     "Islands": {
@@ -88,40 +107,38 @@
     "title": "Nuestro Portafolio",
     "downloadButton": "Descargar Portafolio"
   },
-  "DreamHomeVisualizer": {
-    "title": "Visualiza tu Casa Soñada",
-    "subtitle": "Usa nuestra herramienta de IA para generar una imagen de cómo podría ser tu futuro hogar.",
-    "cardTitle": "Define tus Preferencias",
-    "cardDescription": "Selecciona las opciones a continuación para generar la casa de tus sueños.",
-    "styleLabel": "Estilo Arquitectónico",
-    "stylePlaceholder": "Selecciona un estilo",
-    "styleModern": "Moderno",
-    "styleTraditional": "Tradicional",
-    "styleRustic": "Rústico",
-    "styleCoastal": "Costero",
-    "sizeLabel": "Tamaño de la Casa",
-    "sizePlaceholder": "Selecciona un tamaño",
-    "sizeSmall": "Pequeña",
-    "sizeMedium": "Mediana",
-    "sizeLarge": "Grande",
-    "locationLabel": "Ubicación",
-    "locationPlaceholder": "Selecciona una ubicación",
-    "locationBeachfront": "Frente a la playa",
-    "locationMountain": "Montaña",
-    "locationRural": "Rural",
-    "locationSuburban": "Suburbano",
-    "featuresLabel": "Características Adicionales",
-    "featuresPlaceholder": "Ej: piscina, jardín, balcón...",
-    "buttonGenerating": "Generando...",
-    "buttonGenerate": "Generar Imagen",
-    "loadingText": "Tu casa soñada está siendo creada...",
-    "placeholderText": "La imagen generada aparecerá aquí.",
-    "toastErrorTitle": "Error de Generación",
-    "toastErrorDescription": "No se pudo generar la imagen. Por favor, inténtalo de nuevo."
-  },
   "Gallery": {
     "title": "Galería de Fotos",
     "subtitle": "Explora imágenes reales de nuestra hermosa propiedad y sus alrededores."
+  },
+  "Contact": {
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes preguntas? Nos encantaría saber de ti. Completa el formulario a continuación.",
+    "Form": {
+      "name": "Nombre Completo",
+      "namePlaceholder": "Tu nombre completo",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu.correo@ejemplo.com",
+      "phone": "Número de Teléfono",
+      "phonePlaceholder": "Tu número de contacto",
+      "message": "Mensaje",
+      "messagePlaceholder": "Dinos cómo podemos ayudarte...",
+      "submit": "Enviar Mensaje",
+      "loading": "Enviando..."
+    },
+    "Toast": {
+      "successTitle": "¡Mensaje Enviado!",
+      "successDescription": "Gracias por contactarnos. Te responderemos en breve.",
+      "errorTitle": "Error al Enviar",
+      "errorDescription": "Algo salió mal. Por favor, inténtalo de nuevo."
+    },
+    "validation": {
+      "nameRequired": "El nombre completo es obligatorio.",
+      "emailInvalid": "Por favor, introduce una dirección de correo electrónico válida.",
+      "phoneInvalid": "Por favor, introduce un número de teléfono válido.",
+      "messageRequired": "El mensaje debe tener al menos 10 caracteres.",
+      "messageTooLong": "El mensaje no puede exceder los 500 caracteres."
+    }
   },
   "Footer": {
     "logoAlt": "Santillana del Mar",

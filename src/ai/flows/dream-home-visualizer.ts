@@ -11,7 +11,9 @@
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
-import wav from 'wav';
+import { db } from '@/lib/firebase';
+import { collection, addDoc, Timestamp } from "firebase/firestore";
+
 
 const DreamHomeVisualizerInputSchema = z.object({
   style: z.string().describe('The architectural style of the home (e.g., modern, traditional, rustic).'),
@@ -68,3 +70,23 @@ const dreamHomeVisualizerFlow = ai.defineFlow(
     };
   }
 );
+
+export interface ContactFormData {
+    name: string;
+    email: string;
+    phone: string;
+    message: string;
+}
+
+export async function saveContactMessage(data: ContactFormData): Promise<{success: boolean; message: string}> {
+    try {
+        await addDoc(collection(db, "contacts"), {
+            ...data,
+            submittedAt: Timestamp.now()
+        });
+        return { success: true, message: "Message sent successfully!" };
+    } catch (error) {
+        console.error("Error saving contact message: ", error);
+        return { success: false, message: "There was an error sending your message." };
+    }
+}
