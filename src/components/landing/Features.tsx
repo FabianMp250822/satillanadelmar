@@ -5,7 +5,7 @@ import { z } from 'zod';
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
-import { saveContactMessage, type ContactFormData } from '@/ai/flows/dream-home-visualizer';
+import { saveContactMessage, type ContactFormData } from '@/app/actions/contact';
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
