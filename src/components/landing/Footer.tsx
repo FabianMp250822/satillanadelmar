@@ -8,7 +8,7 @@ export default async function Footer() {
   return (
     <footer id="contact" className="bg-secondary border-t border-border/40 py-12 text-center">
       <div className="container mx-auto px-4 md:px-6 flex flex-col items-center justify-center">
-        <Image src="https://placehold.co/200x100.png" data-ai-hint="logo gold" alt={t('logoAlt')} width={200} height={100} />
+        <Image src="https://i.ibb.co/k26TVv6/image.png" alt={t('logoAlt')} width={200} height={100} />
         
         <div className="mt-8 space-y-4 text-lg">
           <div className="flex items-center justify-center gap-3">

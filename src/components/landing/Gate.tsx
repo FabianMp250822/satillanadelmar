@@ -18,7 +18,7 @@ export default async function Gate() {
           {t('title')}
         </h2>
         <div className="mt-4">
-          <Image src="https://placehold.co/150x75.png" data-ai-hint="logo gold" alt={t('logoAlt')} width={150} height={75} />
+          <Image src="https://i.ibb.co/k26TVv6/image.png" alt={t('logoAlt')} width={150} height={75} />
         </div>
       </div>
     </section>

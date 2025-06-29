@@ -18,7 +18,7 @@ export default async function Header() {
   return (
     <header className="px-4 lg:px-6 h-20 flex items-center sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <Link href="/" className="flex items-center justify-center mr-auto" prefetch={false}>
-        <Image src="https://placehold.co/100x50.png" data-ai-hint="logo" alt={t('title')} width={100} height={50} />
+        <Image src="https://i.ibb.co/k26TVv6/image.png" alt={t('title')} width={100} height={50} />
         <span className="sr-only">{t('title')}</span>
       </Link>
       
@@ -51,7 +51,7 @@ export default async function Header() {
             <SheetContent side="right">
               <nav className="grid gap-6 text-lg font-medium mt-10">
                 <Link href="/" className="flex items-center gap-2 text-lg font-semibold mb-4" prefetch={false}>
-                  <Image src="https://placehold.co/100x50.png" data-ai-hint="logo" alt={t('title')} width={100} height={50} />
+                  <Image src="https://i.ibb.co/k26TVv6/image.png" alt={t('title')} width={100} height={50} />
                   <span className="sr-only">{t('title')}</span>
                 </Link>
                 {navLinks.map((link) => (

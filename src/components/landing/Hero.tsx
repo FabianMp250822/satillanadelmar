@@ -19,7 +19,7 @@ export default async function Hero() {
           {t('title')}
         </h1>
         <div className="mt-8">
-            <Image src="https://placehold.co/200x100.png" data-ai-hint="logo gold" alt={t('logoAlt')} width={200} height={100} />
+            <Image src="https://i.ibb.co/k26TVv6/image.png" alt={t('logoAlt')} width={200} height={100} />
         </div>
       </div>
       <div className="absolute bottom-0 left-0 w-full z-20">

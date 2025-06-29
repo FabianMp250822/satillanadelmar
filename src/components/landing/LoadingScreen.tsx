@@ -24,8 +24,7 @@ export default function LoadingScreen() {
     >
       <div className="animate-fade-in animate-pulse-subtle">
         <Image
-          src="https://placehold.co/200x100.png"
-          data-ai-hint="logo gold"
+          src="https://i.ibb.co/k26TVv6/image.png"
           alt="Santillana del Mar Logo"
           width={200}
           height={100}
