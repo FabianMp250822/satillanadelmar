@@ -24,9 +24,17 @@ export default async function MoreInfo() {
       </section>
 
       {/* Lots Section */}
-      <section id="lots" className="relative w-full py-20 md:py-32 lg:py-40">
-        <Image src="https://placehold.co/1920x800.png" alt={t('Lots.backgroundImageAlt')} layout="fill" objectFit="cover" className="opacity-20" data-ai-hint="aerial land view" />
-        <div className="relative container mx-auto px-4 text-center">
+      <section id="lots" className="relative w-full py-20 md:py-32 lg:py-40 text-foreground overflow-hidden">
+        <iframe
+          src="https://www.youtube.com/embed/e_JM_DNxtdE?autoplay=1&mute=1&loop=1&playlist=e_JM_DNxtdE&controls=0&showinfo=0&modestbranding=1&rel=0"
+          frameBorder="0"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+          title={t('Lots.backgroundImageAlt')}
+          className="absolute top-1/2 left-1/2 w-auto min-w-full min-h-full max-w-none -translate-x-1/2 -translate-y-1/2 z-0"
+        ></iframe>
+        <div className="absolute inset-0 bg-black/50 z-10" />
+        <div className="relative z-20 container mx-auto px-4 text-center">
           <h2 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl font-headline">{t('Lots.title')}</h2>
           <div className="mt-8 inline-block bg-primary/80 text-primary-foreground p-6 rounded-lg">
             <p className="text-xl font-headline">{t('Lots.pricePerM2')}</p>
