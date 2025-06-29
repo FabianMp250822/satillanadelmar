@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 import { cn } from '@/lib/utils';
+import { LoaderCircle } from 'lucide-react';
 
 export default function LoadingScreen() {
   const [loading, setLoading] = useState(true);
@@ -22,15 +22,7 @@ export default function LoadingScreen() {
         loading ? 'opacity-100' : 'opacity-0 pointer-events-none'
       )}
     >
-      <div className="animate-fade-in animate-pulse-subtle">
-        <Image
-          src="https://i.ibb.co/k26TVv6/image.png"
-          alt="Santillana del Mar Logo"
-          width={200}
-          height={100}
-          priority
-        />
-      </div>
+      <LoaderCircle className="h-16 w-16 animate-spin text-primary" />
     </div>
   );
 }

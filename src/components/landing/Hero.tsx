@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
+import { Home } from 'lucide-react';
 
 export default async function Hero() {
   const t = await getTranslations('Hero');
@@ -23,8 +23,9 @@ export default async function Hero() {
         <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl font-headline uppercase">
           {t('title')}
         </h1>
-        <div className="mt-8">
-            <Image src="https://i.ibb.co/k26TVv6/image.png" alt={t('logoAlt')} width={200} height={100} />
+        <div className="mt-8 flex items-center justify-center gap-3">
+          <Home className="h-10 w-10 text-primary" />
+          <h2 className="text-3xl font-bold">{t('logoAlt')}</h2>
         </div>
       </div>
       <div className="absolute bottom-0 left-0 w-full z-20">

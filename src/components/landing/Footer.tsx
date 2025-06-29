@@ -1,6 +1,5 @@
 import { getTranslations } from 'next-intl/server';
-import Image from 'next/image';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, Home } from 'lucide-react';
 
 export default async function Footer() {
   const t = await getTranslations('Footer');
@@ -8,7 +7,10 @@ export default async function Footer() {
   return (
     <footer id="contact" className="bg-secondary border-t border-border/40 py-12 text-center">
       <div className="container mx-auto px-4 md:px-6 flex flex-col items-center justify-center">
-        <Image src="https://i.ibb.co/k26TVv6/image.png" alt={t('logoAlt')} width={200} height={100} />
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <Home className="h-8 w-8 text-primary" />
+          <h3 className="text-2xl font-bold">{t('logoAlt')}</h3>
+        </div>
         
         <div className="mt-8 space-y-4 text-lg">
           <div className="flex items-center justify-center gap-3">

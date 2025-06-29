@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
+import { Home } from 'lucide-react';
 
 export default async function Gate() {
   const t = await getTranslations('Gate');
@@ -17,8 +18,9 @@ export default async function Gate() {
         <h2 className="mt-8 text-3xl font-bold tracking-wider sm:text-4xl md:text-5xl font-headline text-primary uppercase">
           {t('title')}
         </h2>
-        <div className="mt-4">
-          <Image src="https://i.ibb.co/k26TVv6/image.png" alt={t('logoAlt')} width={150} height={75} />
+        <div className="mt-4 flex items-center justify-center gap-2">
+          <Home className="h-8 w-8 text-primary" />
+          <h3 className="text-2xl font-bold">{t('logoAlt')}</h3>
         </div>
       </div>
     </section>

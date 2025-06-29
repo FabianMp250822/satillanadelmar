@@ -12,12 +12,11 @@
     "amenities": "Amenidades",
     "lots": "Lotes",
     "contact": "Contacto",
-    "portfolio": "Portafolio",
-    "visualizer": "Visualizador"
+    "portfolio": "Portafolio"
   },
   "Hero": {
     "title": "Convierte tu hogar soñado",
-    "logoAlt": "Logo de Santillana del Mar",
+    "logoAlt": "Santillana del Mar",
     "backgroundImageAlt": "Vista aérea de Santillana del Mar"
   },
   "Intro": {
@@ -34,7 +33,7 @@
   "Gate": {
     "title": "Portería de Lujo",
     "imageAlt": "Portería de lujo de Santillana del Mar",
-    "logoAlt": "Logo de Santillana del Mar"
+    "logoAlt": "Santillana del Mar"
   },
   "Amenities": {
     "title": "Amenidades Exclusivas para Ti y Tu Familia",
@@ -89,39 +88,8 @@
     "title": "Nuestro Portafolio",
     "downloadButton": "Descargar Portafolio"
   },
-  "DreamHomeVisualizer": {
-    "title": "Visualiza tu Casa de Ensueño",
-    "subtitle": "Usa nuestra herramienta con IA para crear una representación personalizada de tu posible hogar. Selecciona tus preferencias y ve cómo tu visión cobra vida.",
-    "cardTitle": "Diseña tu Hogar",
-    "cardDescription": "Completa el siguiente formulario para comenzar.",
-    "styleLabel": "Estilo Arquitectónico",
-    "stylePlaceholder": "ej., Moderno, Tradicional",
-    "styleModern": "Moderno",
-    "styleTraditional": "Tradicional",
-    "styleRustic": "Rústico",
-    "styleCoastal": "Costero",
-    "sizeLabel": "Tamaño de la Casa",
-    "sizePlaceholder": "ej., Pequeño, Mediano",
-    "sizeSmall": "Cabaña acogedora",
-    "sizeMedium": "Casa familiar mediana",
-    "sizeLarge": "Gran finca",
-    "locationLabel": "Ubicación",
-    "locationPlaceholder": "ej., Frente al Mar, Montaña",
-    "locationBeachfront": "Frente al mar",
-    "locationMountain": "Retiro de montaña",
-    "locationRural": "Campo rural",
-    "locationSuburban": "Suburbano exuberante",
-    "featuresLabel": "Características Adicionales",
-    "featuresPlaceholder": "ej., Piscina infinita, porche envolvente, jardín en la azotea",
-    "buttonGenerating": "Generando...",
-    "buttonGenerate": "Generar Imagen",
-    "loadingText": "Nuestra IA está construyendo tu visión...",
-    "placeholderText": "La casa de tus sueños generada aparecerá aquí.",
-    "toastErrorTitle": "¡Oh no! Algo salió mal.",
-    "toastErrorDescription": "Hubo un problema al generar la casa de tus sueños. Por favor, inténtalo de nuevo."
-  },
   "Footer": {
-    "logoAlt": "Logo de Santillana del Mar",
+    "logoAlt": "Santillana del Mar",
     "phone": "+573015098552",
     "email": "GERENCIASANTILLANADELMAR@GMAIL.COM",
     "address": "MANGA AV. JIMENEZ CALLE 28 #17-179",
