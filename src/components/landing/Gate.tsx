@@ -7,14 +7,24 @@ export default async function Gate() {
   return (
     <section id="gate" className="relative w-full py-20 md:py-32 lg:py-40 flex items-center justify-center text-center bg-background">
       <div className="container px-4 md:px-6 flex flex-col items-center">
-        <Image 
-          src="https://placehold.co/1200x600.png"
-          alt={t('imageAlt')}
-          width={1200}
-          height={600}
-          className="rounded-lg shadow-2xl"
-          data-ai-hint="luxury gatehouse night"
-        />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl">
+            <Image 
+              src="https://i.ibb.co/VYNNnDtQ/porteria.jpg"
+              alt={t('imageAlt')}
+              width={800}
+              height={600}
+              className="rounded-lg shadow-2xl object-cover w-full h-auto"
+              data-ai-hint="luxury gatehouse day"
+            />
+            <Image 
+              src="https://i.ibb.co/xS02g6Tm/porteria-dos.jpg"
+              alt={t('imageAlt')}
+              width={800}
+              height={600}
+              className="rounded-lg shadow-2xl object-cover w-full h-auto"
+              data-ai-hint="luxury gatehouse night"
+            />
+        </div>
         <h2 className="mt-8 text-3xl font-bold tracking-wider sm:text-4xl md:text-5xl font-headline text-primary uppercase">
           {t('title')}
         </h2>
