@@ -1,11 +1,13 @@
-import { getTranslations } from 'next-intl/server';
+'use client';
+
+import { useTranslations } from 'next-intl';
 import { Phone, Mail, MapPin, Home } from 'lucide-react';
 import { Link } from '@/navigation';
 import { Separator } from '@/components/ui/separator';
 
-export default async function Footer() {
-  const t = await getTranslations('Footer');
-  const tNav = await getTranslations('Navigation');
+export default function Footer() {
+  const t = useTranslations('Footer');
+  const tNav = useTranslations('Navigation');
   
   const navLinks = [
     { href: '#intro', label: tNav('intro') },
