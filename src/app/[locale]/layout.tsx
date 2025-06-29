@@ -4,6 +4,7 @@ import { getMessages, getTranslations, unstable_setRequestLocale } from 'next-in
 import '../globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import LoadingScreen from '@/components/landing/LoadingScreen';
+import WhatsAppButton from '@/components/landing/WhatsAppButton';
 
 type Props = {
   children: React.ReactNode;
@@ -49,6 +50,7 @@ export default async function RootLayout({
           {children}
           <Toaster />
         </NextIntlClientProvider>
+        <WhatsAppButton />
       </body>
     </html>
   );
