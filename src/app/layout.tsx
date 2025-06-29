@@ -1,8 +1,11 @@
-//This file is not used directly. Instead, see src/app/[locale]/layout.tsx.
-//The 'use client' directive is required by Next.js for the notFound() function.
-'use client';
-import { notFound } from 'next/navigation';
+import React from 'react';
 
-export default function RootLayout() {
- notFound();
+// This root layout is required by Next.js. It's used for the root page
+// that redirects to a default locale.
+export default function RootLayout({children}: {children: React.ReactNode}) {
+  return (
+    <html>
+      <body>{children}</body>
+    </html>
+  );
 }
