@@ -1,11 +1,11 @@
 import { getTranslations } from 'next-intl/server';
 import { Button } from '@/components/ui/button';
 import { Download } from 'lucide-react';
-import Image from 'next/image';
 
 export default async function Portfolio() {
   const t = await getTranslations('Portfolio');
   const portfolioUrl = "https://drive.google.com/file/d/1eb7Hv8CIii5ZpDWz4k5Snq5OY0TQ_4BY/view?usp=sharing";
+  const embedUrl = "https://drive.google.com/file/d/1eb7Hv8CIii5ZpDWz4k5Snq5OY0TQ_4BY/preview";
 
   return (
     <section id="portfolio" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
@@ -17,14 +17,12 @@ export default async function Portfolio() {
         </div>
         <div className="w-full max-w-5xl mx-auto">
           <div className="border rounded-lg overflow-hidden shadow-2xl aspect-video bg-muted">
-            <Image
-                src="https://placehold.co/1200x675.png"
-                alt="Portfolio Preview"
-                width={1200}
-                height={675}
-                className="w-full h-auto object-cover"
-                data-ai-hint="document portfolio"
-            />
+            <iframe
+              src={embedUrl}
+              className="w-full h-full"
+              allow="autoplay"
+              title="Portfolio PDF"
+            ></iframe>
           </div>
           <div className="mt-8 text-center">
             <a href={portfolioUrl} target="_blank" rel="noopener noreferrer">
