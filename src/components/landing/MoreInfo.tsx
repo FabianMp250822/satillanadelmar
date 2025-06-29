@@ -52,7 +52,7 @@ export default async function MoreInfo() {
                         <h2 className="text-3xl font-bold font-headline text-primary mb-4">{t('Payment.title')}</h2>
                         <Image src="https://i.ibb.co/zV6tNF0V/picina-social-3.jpg" alt={t('Payment.imageAlt')} width={600} height={400} className="rounded-lg mx-auto object-cover" data-ai-hint="serene lake sunset" />
                     </div>
-                    <div className="md:w-2/3 space-y-4 text-lg text-center md:text-left">
+                    <div className="md:w-2/3 space-y-4 text-lg text-center">
                         <p>{t('Payment.socialInterest')}</p>
                         <p><strong className='text-primary'>{t('Payment.separationTitle')}</strong> {t('Payment.separationValue')}</p>
                         <p><strong className='text-primary'>{t('Payment.initialFeeTitle')}</strong> {t('Payment.initialFeeValue')}</p>
