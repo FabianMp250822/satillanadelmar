@@ -30,7 +30,7 @@ export default async function RootLayout({
   params: { locale }
 }: Readonly<Props>) {
   unstable_setRequestLocale(locale);
-  const messages = await getMessages();
+  const messages = await getMessages({locale});
   
   return (
     <html lang={locale} className="dark">
