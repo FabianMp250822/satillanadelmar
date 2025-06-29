@@ -64,7 +64,7 @@ export default async function Amenities() {
             {t('title')}
           </h2>
         </div>
-        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <div className="grid justify-center gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {amenities.map((amenity) => (
             <Card key={amenity.key} className="group overflow-hidden rounded-lg bg-card border-primary/30 hover:shadow-xl transition-all duration-300 flex flex-col">
               <div className="relative aspect-square w-full">
