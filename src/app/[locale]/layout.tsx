@@ -23,6 +23,9 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   return {
     title: t('title'),
     description: t('description'),
+    icons: {
+      icon: 'https://i.ibb.co/5x8xbmtK/favicon.png',
+    }
   };
 }
 

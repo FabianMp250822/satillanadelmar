@@ -6,11 +6,16 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { useTranslations } from 'next-intl';
 
 const galleryImages = [
-  { src: 'https://placehold.co/800x600.png', alt: 'Property View 1', hint: 'modern house exterior' },
-  { src: 'https://placehold.co/800x600.png', alt: 'Property View 2', hint: 'luxury kitchen interior' },
-  { src: 'https://placehold.co/800x600.png', alt: 'Property View 3', hint: 'cozy living room' },
-  { src: 'https://placehold.co/800x600.png', alt: 'Property View 4', hint: 'bedroom panoramic view' },
-  { src: 'https://placehold.co/800x600.png', alt: 'Property View 5', hint: 'landscaped garden' },
+  { src: 'https://i.ibb.co/Pz9m9WkN/panoramica.jpg', alt: 'Vista Aérea 1', hint: 'aerial property' },
+  { src: 'https://i.ibb.co/8hPB0jB/panoramica-3.jpg', alt: 'Vista Aérea 2', hint: 'aerial landscape' },
+  { src: 'https://i.ibb.co/VYNNnDtQ/porteria.jpg', alt: 'Portería de Lujo (Día)', hint: 'luxury gatehouse day' },
+  { src: 'https://i.ibb.co/xS02g6Tm/porteria-dos.jpg', alt: 'Portería de Lujo (Noche)', hint: 'luxury gatehouse night' },
+  { src: 'https://i.ibb.co/fgVg9nn/unnamed.png', alt: 'Cancha Múltiple', hint: 'sports court' },
+  { src: 'https://i.ibb.co/ZRVb3W4B/ginnacio-area-libre.jpg', alt: 'Gimnasio Biosaludable', hint: 'outdoor gym' },
+  { src: 'https://i.ibb.co/HTDKqhFj/comedor-social.jpg', alt: 'Salón Social', hint: 'social hall' },
+  { src: 'https://i.ibb.co/zV6tNF0V/picina-social-3.jpg', alt: 'Piscina Social', hint: 'resort pool' },
+  { src: 'https://i.ibb.co/9HQgndbC/picina-social-2.jpg', alt: 'Piscina Social 2', hint: 'poolside lounge' },
+  { src: 'https://i.ibb.co/MxtdHbfD/parque-de-mascotas.jpg', alt: 'Parque de Mascotas', hint: 'pet park' },
 ];
 
 export default function Gallery() {

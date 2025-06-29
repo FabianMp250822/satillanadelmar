@@ -12,11 +12,11 @@ export default async function MoreInfo() {
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
           <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
             <div className="flex flex-col items-center">
-              <Image src="https://placehold.co/600x400.png" alt={t('Islands.ecologicalPathsAlt')} width={600} height={400} className="rounded-lg object-cover" data-ai-hint="ecological path" />
+              <Image src="https://i.ibb.co/Pz9m9WkN/panoramica.jpg" alt={t('Islands.ecologicalPathsAlt')} width={600} height={400} className="rounded-lg object-cover" data-ai-hint="ecological path" />
               <h3 className="mt-4 text-2xl font-bold font-headline">{t('Islands.ecologicalPaths')}</h3>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="https://placehold.co/600x400.png" alt={t('Islands.privateIslandsAlt')} width={600} height={400} className="rounded-lg object-cover" data-ai-hint="private island lounge" />
+              <Image src="https://i.ibb.co/8hPB0jB/panoramica-3.jpg" alt={t('Islands.privateIslandsAlt')} width={600} height={400} className="rounded-lg object-cover" data-ai-hint="private island lounge" />
               <h3 className="mt-4 text-2xl font-bold font-headline">{t('Islands.privateIslands')}</h3>
             </div>
           </div>
@@ -50,7 +50,7 @@ export default async function MoreInfo() {
                 <CardContent className="flex flex-col md:flex-row items-center justify-center gap-8 p-0">
                     <div className='md:w-1/3 text-center'>
                         <h2 className="text-3xl font-bold font-headline text-primary mb-4">{t('Payment.title')}</h2>
-                        <Image src="https://placehold.co/600x400.png" alt={t('Payment.imageAlt')} width={600} height={400} className="rounded-lg mx-auto" data-ai-hint="serene lake sunset" />
+                        <Image src="https://i.ibb.co/zV6tNF0V/picina-social-3.jpg" alt={t('Payment.imageAlt')} width={600} height={400} className="rounded-lg mx-auto object-cover" data-ai-hint="serene lake sunset" />
                     </div>
                     <div className="md:w-2/3 space-y-4 text-lg text-center md:text-left">
                         <p>{t('Payment.socialInterest')}</p>
@@ -73,11 +73,11 @@ export default async function MoreInfo() {
               <h3 className="text-2xl font-bold font-headline text-primary mt-8">{t('Policies.constructionTitle')}</h3>
               <p className="text-foreground/80">{t('Policies.constructionDescription')}</p>
             </div>
-            <Image src="https://placehold.co/600x800.png" alt={t('Policies.imageAlt')} width={600} height={800} className="rounded-lg" data-ai-hint="tree water" />
+            <Image src="https://i.ibb.co/MxtdHbfD/parque-de-mascotas.jpg" alt={t('Policies.imageAlt')} width={600} height={800} className="rounded-lg object-cover" data-ai-hint="tree water" />
           </div>
 
           <div className="grid gap-10 md:grid-cols-2 items-center max-w-6xl mx-auto">
-             <Image src="https://placehold.co/600x600.png" alt={t('Services.imageAlt')} width={600} height={600} className="rounded-lg" data-ai-hint="tropical plant" />
+             <Image src="https://i.ibb.co/HTDKqhFj/comedor-social.jpg" alt={t('Services.imageAlt')} width={600} height={600} className="rounded-lg object-cover" data-ai-hint="tropical plant" />
             <div className="space-y-4 text-center md:text-left">
               <h3 className="text-2xl font-bold font-headline text-primary">{t('Services.title')}</h3>
               <p className="text-foreground/80">{t('Services.description')}</p>
