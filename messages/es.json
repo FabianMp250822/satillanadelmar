@@ -16,7 +16,7 @@
   },
   "Hero": {
     "title": "Convierte tu hogar soñado",
-    "logoAlt": "Logo de Santillana del Mar",
+    "logoAlt": "Tu hogar soñado donde la exclusividad se encuentra con la naturaleza.",
     "backgroundImageAlt": "Vista aérea de Santillana del Mar"
   },
   "Intro": {
@@ -33,7 +33,7 @@
   "Gate": {
     "title": "Portería de Lujo",
     "imageAlt": "Portería de lujo de Santillana del Mar",
-    "logoAlt": "Logo de Santillana del Mar"
+    "logoAlt": "Tu hogar soñado donde la exclusividad se encuentra con la naturaleza."
   },
   "Amenities": {
     "title": "Amenidades Exclusivas para Ti y Tu Familia",
@@ -89,7 +89,7 @@
     "downloadButton": "Descargar Portafolio"
   },
   "Footer": {
-    "logoAlt": "Logo de Santillana del Mar",
+    "logoAlt": "Santillana del Mar",
     "phone": "+573015098552",
     "email": "GERENCIASANTILLANADELMAR@GMAIL.COM",
     "address": "MANGA AV. JIMENEZ CALLE 28 #17-179",
