@@ -63,9 +63,6 @@ export default function DreamHomeVisualizer() {
       <div className="container grid items-start gap-10 px-4 md:px-6 lg:grid-cols-2 lg:gap-16">
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
-              {t('title')}
-            </h2>
             <p className="max-w-[600px] text-foreground/80 md:text-xl/relaxed">
               {t('subtitle')}
             </p>

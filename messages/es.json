@@ -33,7 +33,7 @@
   "Gate": {
     "title": "Portería de Lujo",
     "imageAlt": "Portería de lujo de Santillana del Mar",
-    "logoAlt": "Tu hogar soñado donde la exclusividad se encuentra con la naturaleza."
+    "logoAlt": "Santillana del Mar"
   },
   "Amenities": {
     "title": "Amenidades Exclusivas para Ti y Tu Familia",
@@ -88,8 +88,46 @@
     "title": "Nuestro Portafolio",
     "downloadButton": "Descargar Portafolio"
   },
+  "DreamHomeVisualizer": {
+    "title": "Visualiza tu Casa Soñada",
+    "subtitle": "Usa nuestra herramienta de IA para generar una imagen de cómo podría ser tu futuro hogar.",
+    "cardTitle": "Define tus Preferencias",
+    "cardDescription": "Selecciona las opciones a continuación para generar la casa de tus sueños.",
+    "styleLabel": "Estilo Arquitectónico",
+    "stylePlaceholder": "Selecciona un estilo",
+    "styleModern": "Moderno",
+    "styleTraditional": "Tradicional",
+    "styleRustic": "Rústico",
+    "styleCoastal": "Costero",
+    "sizeLabel": "Tamaño de la Casa",
+    "sizePlaceholder": "Selecciona un tamaño",
+    "sizeSmall": "Pequeña",
+    "sizeMedium": "Mediana",
+    "sizeLarge": "Grande",
+    "locationLabel": "Ubicación",
+    "locationPlaceholder": "Selecciona una ubicación",
+    "locationBeachfront": "Frente a la playa",
+    "locationMountain": "Montaña",
+    "locationRural": "Rural",
+    "locationSuburban": "Suburbano",
+    "featuresLabel": "Características Adicionales",
+    "featuresPlaceholder": "Ej: piscina, jardín, balcón...",
+    "buttonGenerating": "Generando...",
+    "buttonGenerate": "Generar Imagen",
+    "loadingText": "Tu casa soñada está siendo creada...",
+    "placeholderText": "La imagen generada aparecerá aquí.",
+    "toastErrorTitle": "Error de Generación",
+    "toastErrorDescription": "No se pudo generar la imagen. Por favor, inténtalo de nuevo."
+  },
+  "Gallery": {
+    "title": "Galería de Fotos",
+    "subtitle": "Explora imágenes reales de nuestra hermosa propiedad y sus alrededores."
+  },
   "Footer": {
     "logoAlt": "Santillana del Mar",
+    "slogan": "Tu hogar soñado donde la exclusividad se encuentra con la naturaleza.",
+    "quickLinksTitle": "Enlaces Rápidos",
+    "contactTitle": "Contacto",
     "phone": "+573015098552",
     "email": "GERENCIASANTILLANADELMAR@GMAIL.COM",
     "address": "MANGA AV. JIMENEZ CALLE 28 #17-179",
