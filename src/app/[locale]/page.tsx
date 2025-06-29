@@ -8,7 +8,6 @@ import Footer from '@/components/landing/Footer';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import Portfolio from '@/components/landing/Portfolio';
 import Gallery from '@/components/landing/Gallery';
-import DreamHomeVisualizer from '@/components/landing/DreamHomeVisualizer';
 
 type Props = {
   params: {locale: string};
@@ -27,7 +26,6 @@ export default function Home({ params: {locale} }: Props) {
         <Amenities />
         <MoreInfo />
         <Gallery />
-        <DreamHomeVisualizer />
         <Portfolio />
       </main>
       <Footer />
