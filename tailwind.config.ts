@@ -104,7 +104,7 @@ export default {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
-        'fade-in': 'fade-in 1s ease-in-out',
+        'fade-in': 'fade-in 1s ease-in-out forwards',
         'fade-out': 'fade-out 1s ease-in-out forwards',
         'pulse-subtle': 'pulse-subtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
