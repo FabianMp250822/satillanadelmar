@@ -19,10 +19,10 @@ export default async function Hero() {
       ></iframe>
       <div className="absolute inset-0 bg-black/50 z-10" />
       <div className="relative z-20 container px-4 md:px-6 text-center flex flex-col items-center">
-        <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl font-headline uppercase">
+        <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl font-headline uppercase animate-fade-in opacity-0 [animation-delay:200ms]">
           {t('title')}
         </h1>
-        <p className="mt-6 text-xl md:text-2xl max-w-4xl">
+        <p className="mt-6 text-xl md:text-2xl max-w-4xl animate-fade-in opacity-0 [animation-delay:400ms]">
           {t('logoAlt')}
         </p>
       </div>

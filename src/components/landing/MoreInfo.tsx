@@ -8,7 +8,7 @@ export default async function MoreInfo() {
   return (
     <div className="bg-background">
       {/* Islands Section */}
-      <section id="islands" className="w-full py-12 md:py-24 lg:py-32">
+      <section id="islands" className="w-full py-12 md:py-24 lg:py-32 animate-fade-in opacity-0 [animation-delay:200ms]">
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
           <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
             <div className="flex flex-col items-center">
@@ -24,7 +24,7 @@ export default async function MoreInfo() {
       </section>
 
       {/* Lots Section */}
-      <section id="lots" className="relative w-full py-20 md:py-32 lg:py-40 text-foreground overflow-hidden">
+      <section id="lots" className="relative w-full py-20 md:py-32 lg:py-40 text-foreground overflow-hidden animate-fade-in opacity-0 [animation-delay:200ms]">
         <iframe
           src="https://www.youtube.com/embed/e_JM_DNxtdE?autoplay=1&mute=1&loop=1&playlist=e_JM_DNxtdE&controls=0&showinfo=0&modestbranding=1&rel=0"
           frameBorder="0"
@@ -44,7 +44,7 @@ export default async function MoreInfo() {
       </section>
 
       {/* Payment Section */}
-      <section id="payment" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
+      <section id="payment" className="w-full py-12 md:py-24 lg:py-32 bg-secondary animate-fade-in opacity-0 [animation-delay:200ms]">
         <div className="container px-4 md:px-6">
             <Card className="bg-background/50 p-8 max-w-6xl mx-auto">
                 <CardContent className="flex flex-col md:flex-row items-center justify-center gap-8 p-0">
@@ -64,7 +64,7 @@ export default async function MoreInfo() {
       </section>
 
       {/* Policies & Services Section */}
-      <section id="policies" className="w-full py-12 md:py-24 lg:py-32 bg-background">
+      <section id="policies" className="w-full py-12 md:py-24 lg:py-32 bg-background animate-fade-in opacity-0 [animation-delay:200ms]">
         <div className="container px-4 md:px-6 space-y-16">
           <div className="grid gap-10 md:grid-cols-2 items-center max-w-6xl mx-auto">
             <div className="space-y-4 text-center">

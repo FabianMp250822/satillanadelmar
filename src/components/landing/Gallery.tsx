@@ -22,7 +22,7 @@ export default function Gallery() {
   const t = useTranslations('Gallery');
 
   return (
-    <section id="gallery" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="gallery" className="w-full py-12 md:py-24 lg:py-32 animate-fade-in opacity-0 [animation-delay:200ms]">
       <div className="container px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">

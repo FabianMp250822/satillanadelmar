@@ -5,7 +5,7 @@ import { Home } from 'lucide-react';
 export default async function Gate() {
   const t = await getTranslations('Gate');
   return (
-    <section id="gate" className="relative w-full py-20 md:py-32 lg:py-40 flex items-center justify-center text-center bg-background">
+    <section id="gate" className="relative w-full py-20 md:py-32 lg:py-40 flex items-center justify-center text-center bg-background animate-fade-in opacity-0 [animation-delay:200ms]">
       <div className="container px-4 md:px-6 flex flex-col items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl">
             <Image 
