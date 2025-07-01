@@ -8,7 +8,7 @@ export default async function Hero() {
   const embedUrl = `https://www.youtube.com/embed/${videoId}${embedParams}`;
 
   return (
-    <section id="home" className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center text-foreground overflow-hidden">
+    <section id="home" className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center text-primary-foreground overflow-hidden">
       <iframe
         src={embedUrl}
         frameBorder="0"
@@ -17,12 +17,12 @@ export default async function Hero() {
         title={t('backgroundImageAlt')}
         className="absolute top-1/2 left-1/2 w-auto min-w-full min-h-full max-w-none -translate-x-1/2 -translate-y-1/2 z-0"
       ></iframe>
-      <div className="absolute inset-0 bg-black/50 z-10" />
+      <div className="absolute inset-0 bg-black/30 z-10" />
       <div className="relative z-20 container px-4 md:px-6 text-center flex flex-col items-center">
-        <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl font-headline uppercase animate-fade-in opacity-0 [animation-delay:200ms]">
+        <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl font-headline uppercase animate-fade-in opacity-0 [animation-delay:200ms] [text-shadow:2px_2px_4px_rgba(0,0,0,0.5)]">
           {t('title')}
         </h1>
-        <p className="mt-6 text-xl md:text-2xl max-w-4xl animate-fade-in opacity-0 [animation-delay:400ms]">
+        <p className="mt-6 text-xl md:text-2xl max-w-4xl animate-fade-in opacity-0 [animation-delay:400ms] [text-shadow:1px_1px_4px_rgba(0,0,0,0.5)]">
           {t('logoAlt')}
         </p>
       </div>
