@@ -24,7 +24,7 @@ export default async function MoreInfo() {
       </section>
 
       {/* Lots Section */}
-      <section id="lots" className="relative w-full py-20 md:py-32 lg:py-40 text-foreground overflow-hidden animate-fade-in opacity-0 [animation-delay:200ms]">
+      <section id="lots" className="relative w-full py-20 md:py-32 lg:py-40 text-primary-foreground overflow-hidden animate-fade-in opacity-0 [animation-delay:200ms]">
         <iframe
           src="https://www.youtube.com/embed/e_JM_DNxtdE?autoplay=1&mute=1&loop=1&playlist=e_JM_DNxtdE&controls=0&showinfo=0&modestbranding=1&rel=0"
           frameBorder="0"
@@ -33,10 +33,9 @@ export default async function MoreInfo() {
           title={t('Lots.backgroundImageAlt')}
           className="absolute top-1/2 left-1/2 w-auto min-w-full min-h-full max-w-none -translate-x-1/2 -translate-y-1/2 z-0"
         ></iframe>
-        <div className="absolute inset-0 bg-black/50 z-10" />
         <div className="relative z-20 container mx-auto px-4 text-center">
-          <h2 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl font-headline">{t('Lots.title')}</h2>
-          <div className="mt-8 inline-block bg-primary/80 text-primary-foreground p-6 rounded-lg">
+          <h2 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl font-headline [text-shadow:2px_2px_4px_rgba(0,0,0,0.5)]">{t('Lots.title')}</h2>
+          <div className="mt-8 inline-block bg-primary/90 text-primary-foreground p-6 rounded-lg [text-shadow:1px_1px_2px_rgba(0,0,0,0.4)]">
             <p className="text-xl font-headline">{t('Lots.pricePerM2')}</p>
             <p className="text-6xl font-bold">${t('Lots.price')}</p>
           </div>
