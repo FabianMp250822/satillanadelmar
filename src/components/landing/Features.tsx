@@ -72,7 +72,7 @@ export default function ContactForm() {
                         <div className="relative aspect-[9/16] w-full rounded-lg overflow-hidden shadow-2xl">
                             <iframe
                                 className="absolute top-0 left-0 w-full h-full"
-                                src="https://www.youtube.com/embed/_1NqYcfxlzw?autoplay=1&mute=1&loop=1&playlist=_1NqYcfxlzw&controls=0&showinfo=0&modestbranding=1&rel=0"
+                                src="https://www.youtube.com/embed/_1NqYcfxlzw?autoplay=1&mute=1&loop=1&playlist=_1NqYcfxlzw&controls=1&showinfo=0&modestbranding=1&rel=0"
                                 title="Video Santillana del Mar"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
