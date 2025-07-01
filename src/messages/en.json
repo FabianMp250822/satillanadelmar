@@ -23,7 +23,7 @@
     "title": "Make your dreams come true in Santillana del Mar!",
     "urbanDevelopment": {
       "title": "Urban Development",
-      "description": "Urban planning attrs. An exclusive place designed to offer an excellent quality of life, tranquility and a natural environment, with internal roads that lead to a privileged view of the swamp, ideal for water sports and fishing."
+      "description": "An exclusive place designed to offer an excellent quality of life, tranquility and a natural environment, with internal roads that lead to a privileged view of the swamp, ideal for water sports and fishing."
     },
     "strategicLocation": {
       "title": "Strategic Location",
@@ -106,7 +106,10 @@
   },
   "Portfolio": {
     "title": "Our Portfolio",
-    "downloadButton": "Download Portfolio"
+    "downloadButton": "Download Portfolio",
+    "mapTitle": "Our Location",
+    "mapAlt": "Location of Santillana del Mar on Google Maps",
+    "openMapButton": "Open in Google Maps"
   },
   "DreamHomeVisualizer": {
     "title": "Visualize Your Dream Home",
