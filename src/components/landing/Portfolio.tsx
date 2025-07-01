@@ -6,7 +6,7 @@ export default async function Portfolio() {
   const t = await getTranslations('Portfolio');
   const portfolioUrl = "https://drive.google.com/file/d/1eb7Hv8CIii5ZpDWz4k5Snq5OY0TQ_4BY/view?usp=sharing";
   const embedUrl = "https://drive.google.com/file/d/1eb7Hv8CIii5ZpDWz4k5Snq5OY0TQ_4BY/preview";
-  const mapEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.013537233383!2d-75.46233512595908!3d10.46115986470394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef63d00b6478085%3A0x65781c9e4b863a3!2sSANTILLANA%20DEL%20MAR!5e0!3m2!1sen!2sco!4v1719442652875!5m2!1sen!2sco";
+  const mapEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.7512404090595!2d-75.4617588303868!3d10.46128506161864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef63d00b6478085%3A0x65781c9e4b863a3!2sSANTILLANA%20DEL%20MAR!5e0!3m2!1sen!2sco";
   const mapUrl = "https://maps.app.goo.gl/3fF9dJzQf6gS1qE86";
 
   return (
