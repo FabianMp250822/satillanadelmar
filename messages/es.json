@@ -106,7 +106,10 @@
   "Portfolio": {
     "title": "Nuestro Portafolio",
     "downloadButton": "Descargar Portafolio"
-  },
+  ,
+    "mapAlt": "Mapa de Santillana del Mar",
+    "openMapButton": "Abrir en Google Maps",
+    "mapTitle": "Ubicación"},
   "DreamHomeVisualizer": {
     "title": "Visualiza tu Casa Soñada",
     "subtitle": "Usa nuestra herramienta de IA para generar una imagen de cómo podría ser tu futuro hogar.",
