@@ -19,9 +19,9 @@ export default function Footer() {
   return (
     <footer className="bg-secondary border-t border-border/40 text-sm">
       <div className="container mx-auto px-4 md:px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           {/* Column 1: Brand */}
-          <div className="space-y-4 flex flex-col items-center md:items-start">
+          <div className="space-y-4 flex flex-col items-center">
             <div className="flex items-center gap-3">
               <Home className="h-8 w-8 text-primary" />
               <h3 className="text-2xl font-bold">{t('logoAlt')}</h3>
@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
 
           {/* Column 2: Quick Links */}
-          <div className="space-y-4 flex flex-col items-center md:items-start">
+          <div className="space-y-4 flex flex-col items-center">
             <h4 className="font-bold text-lg uppercase tracking-wider text-primary">{t('quickLinksTitle')}</h4>
             <ul className="space-y-2">
               {navLinks.map((link) => (
@@ -49,18 +49,18 @@ export default function Footer() {
           </div>
 
           {/* Column 3: Contact Info */}
-          <div className="space-y-4 flex flex-col items-center md:items-start">
+          <div className="space-y-4 flex flex-col items-center">
             <h4 className="font-bold text-lg uppercase tracking-wider text-primary">{t('contactTitle')}</h4>
             <div className="space-y-2">
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 justify-center">
                 <Phone className="h-5 w-5 text-primary" />
                 <a href={`tel:${t('phone')}`} className="hover:text-primary transition-colors">{t('phone')}</a>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 justify-center">
                 <Mail className="h-5 w-5 text-primary" />
                 <a href={`mailto:${t('email')}`} className="hover:text-primary transition-colors">{t('email')}</a>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 justify-center">
                 <MapPin className="h-5 w-5 text-primary" />
                 <span>{t('address')}</span>
               </div>

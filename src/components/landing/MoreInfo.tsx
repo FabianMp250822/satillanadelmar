@@ -67,7 +67,7 @@ export default async function MoreInfo() {
       <section id="policies" className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <div className="container px-4 md:px-6 space-y-16">
           <div className="grid gap-10 md:grid-cols-2 items-center max-w-6xl mx-auto">
-            <div className="space-y-4 text-center md:text-left">
+            <div className="space-y-4 text-center">
               <h3 className="text-2xl font-bold font-headline text-primary">{t('Policies.deliveryTitle')}</h3>
               <p className="text-foreground/80">{t('Policies.deliveryDescription')}</p>
               <h3 className="text-2xl font-bold font-headline text-primary mt-8">{t('Policies.constructionTitle')}</h3>
@@ -78,7 +78,7 @@ export default async function MoreInfo() {
 
           <div className="grid gap-10 md:grid-cols-2 items-center max-w-6xl mx-auto">
              <Image src="https://i.ibb.co/HTDKqhFj/comedor-social.jpg" alt={t('Services.imageAlt')} width={600} height={600} className="rounded-lg object-cover" data-ai-hint="tropical plant" />
-            <div className="space-y-4 text-center md:text-left">
+            <div className="space-y-4 text-center">
               <h3 className="text-2xl font-bold font-headline text-primary">{t('Services.title')}</h3>
               <p className="text-foreground/80">{t('Services.description')}</p>
             </div>
