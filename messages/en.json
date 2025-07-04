@@ -16,14 +16,14 @@
   },
   "Hero": {
     "title": "Build your dream home",
-    "logoAlt": "Santillana del Mar Logo",
+    "logoAlt": "Your dream home where exclusivity meets nature.",
     "backgroundImageAlt": "Aerial view of Santillana del Mar"
   },
   "Intro": {
     "title": "Make your dreams come true in Santillana del Mar!",
     "urbanDevelopment": {
       "title": "Urban Development",
-      "description": "Urban planning attrs. An exclusive place designed to offer an excellent quality of life, tranquility and a natural environment, with internal roads that lead to a privileged view of the swamp, ideal for water sports and fishing."
+      "description": "An exclusive place designed to offer an excellent quality of life, tranquility and a natural environment, with internal roads that lead to a privileged view of the swamp, ideal for water sports and fishing."
     },
    "strategicLocation": {
     "title": "Strategic Location",
@@ -33,7 +33,7 @@
   "Gate": {
     "title": "Luxury Gatehouse",
     "imageAlt": "Luxury gatehouse of Santillana del Mar",
-    "logoAlt": "Santillana del Mar Logo"
+    "logoAlt": "Santillana del Mar"
   },
   "Amenities": {
     "title": "Exclusive Amenities for You and Your Family",
@@ -75,7 +75,7 @@
       "deliveryTitle": "Lot Delivery Policy",
       "deliveryDescription": "The lot is delivered when the last payment of the initial fee is paid and the purchase promise is signed. And we proceed with the purchase and sale protocol and we give you the plans and renders for your home at no cost. At this point, the client can start the procedures to start the construction of their home.",
       "constructionTitle": "Construction Policy",
-      "constructionDescription": "The land transfer is done upon payment of the full value of the lot, that is, when you pay your credit. And we proceed with the deed of the property. The owner has the obligation to present a project with the construction plans to the board of directors and/or administration for their approval and to start the construction of their home within a term no longer than one year, once the urbanization works have been completed.",
+      "constructionDescription": "The land transfer is done upon payment of the full value of the lot, that is, when you pay your credit. And we proceed with the deed of the property. The owner has the obligation to present a project with the construction plans to the board of directors and/o administration for their approval and to start the construction of their home within a term no longer than one year, once the urbanization works have been completed.",
       "imageAlt": "A large tree by the water"
     },
     "Services": {
@@ -86,10 +86,89 @@
   },
   "Portfolio": {
     "title": "Our Portfolio",
-    "downloadButton": "Download Portfolio"
+    "downloadButton": "Download Portfolio",
+    "mapTitle": "Our Location",
+    "mapAlt": "Location of Santillana del Mar on Google Maps",
+    "openMapButton": "Open in Google Maps"
+  },
+  "Benefits": {
+    "title": "Our Benefits"
+  },
+  "VirtualTour": {
+    "title": "Virtual Tour"
+  },
+  "LakeView": {
+    "title": "Lake View"
+  },
+  "DreamHomeVisualizer": {
+    "title": "Visualize Your Dream Home",
+    "subtitle": "Use our AI tool to generate an image of what your future home could look like.",
+    "cardTitle": "Set Your Preferences",
+    "cardDescription": "Select the options below to generate your dream home.",
+    "styleLabel": "Architectural Style",
+    "stylePlaceholder": "Select a style",
+    "styleModern": "Modern",
+    "styleTraditional": "Traditional",
+    "styleRustic": "Rustic",
+    "styleCoastal": "Coastal",
+    "sizeLabel": "Home Size",
+    "sizePlaceholder": "Select a size",
+    "sizeSmall": "Small",
+    "sizeMedium": "Medium",
+    "sizeLarge": "Large",
+    "locationLabel": "Location",
+    "locationPlaceholder": "Select a location",
+    "locationBeachfront": "Beachfront",
+    "locationMountain": "Mountain",
+    "locationRural": "Rural",
+    "locationSuburban": "Suburban",
+    "featuresLabel": "Additional Features",
+    "featuresPlaceholder": "e.g., swimming pool, garden, balcony...",
+    "buttonGenerating": "Generating...",
+    "buttonGenerate": "Generate Image",
+    "loadingText": "Your dream home is being created...",
+    "placeholderText": "The generated image will appear here.",
+    "toastErrorTitle": "Generation Error",
+    "toastErrorDescription": "Could not generate the image. Please try again."
+  },
+  "Gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Explore real images of our beautiful property and its surroundings."
+  },
+  "ContactSection": {
+    "title": "Contact Us",
+    "subtitle": "Have questions? We'd love to hear from you. Fill out the form below.",
+    "Form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "your.email@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Your contact number",
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help...",
+      "submit": "Send Message",
+      "loading": "Sending..."
+    },
+    "Toast": {
+      "successTitle": "Message Sent!",
+      "successDescription": "Thank you for contacting us. We will get back to you shortly.",
+      "errorTitle": "Submission Error",
+      "errorDescription": "Something went wrong. Please try again."
+    },
+    "validation": {
+      "nameRequired": "Full name is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "phoneInvalid": "Please enter a valid phone number.",
+      "messageRequired": "Message must be at least 10 characters.",
+      "messageTooLong": "Message cannot exceed 500 characters."
+    }
   },
   "Footer": {
-    "logoAlt": "Santillana del Mar Logo",
+    "logoAlt": "Santillana del Mar",
+    "slogan": "Your dream home where exclusivity meets nature.",
+    "quickLinksTitle": "Quick Links",
+    "contactTitle": "Contact",
     "phone": "+57 3015098552",
     "email": "GERENCIASANTILLANADELMAR@GMAIL.COM",
     "address": "MANGA AV. JIMENEZ CALLE 28 #17-179",

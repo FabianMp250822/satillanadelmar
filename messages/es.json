@@ -1,3 +1,4 @@
+
 {
   "Metadata": {
     "title": "Santillana del Mar",
@@ -110,6 +111,15 @@
     "mapAlt": "Mapa de Santillana del Mar",
     "openMapButton": "Abrir en Google Maps",
     "mapTitle": "Ubicación"},
+  "Benefits": {
+    "title": "Nuestros Beneficios"
+  },
+  "VirtualTour": {
+    "title": "Recorrido Virtual"
+  },
+  "LakeView": {
+    "title": "Vista al Lago"
+  },
   "DreamHomeVisualizer": {
     "title": "Visualiza tu Casa Soñada",
     "subtitle": "Usa nuestra herramienta de IA para generar una imagen de cómo podría ser tu futuro hogar.",

@@ -1,8 +1,8 @@
 import { getTranslations } from 'next-intl/server';
 
 export default async function Benefits() {
-  const t = await getTranslations('Benefits.title');
-  const embedUrl = "https://www.youtube.com/embed/_1NqYcfxlzw";
+  const t = await getTranslations('Benefits');
+  const embedUrl = "https://www.youtube.com/embed/_1NqYcfxlzw"; // Replace with your actual video embed URL
 
   return (
     <section id="benefits" className="w-full py-12 md:py-24 bg-background">
