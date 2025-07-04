@@ -23,11 +23,11 @@
     "title": "¡Haz realidad tus sueños en Santillana del Mar!",
     "urbanDevelopment": {
       "title": "Desarrollo Urbano",
-      "description": "Santillana del Mar cuenta con una ubicación privilegiada, en una zona de alta valorización y proyección urbanística de la ciudad de Cartagena, muy cerca de instituciones educativas de alto nivel, plazas comerciales, playas, hospitales, hoteles, restaurantes, estaciones de servicio e importantes desarrollos inmobiliarios. Entre los que se destacan:"
+      "description": "Un lugar exclusivo diseñado para ofrecer una excelente calidad de vida, tranquilidad y un entorno natural, con vías internas que conducen a una vista privilegiada de la ciénaga, ideal para practicar deportes acuáticos y pesca."
     },
     "strategicLocation": {
       "title": "Ubicación Estratégica",
-      "description": "Santillana del Mar se encuentra ubicado en la zona norte de Cartagena, en el corregimiento de Bayunca diagonal al Centro Recreacional Takurika."
+     "description": "Santillana del Mar se encuentra ubicado en la zona norte de Cartagena, en el corregimiento de Bayunca diagonal al Centro Recreacional Takurika. Santillana del Mar cuenta con una ubicación privilegiada, en una zona de alta valorización y proyección urbanística de la ciudad de Cartagena, muy cerca de instituciones educativas de alto nivel, plazas comerciales, playas, hospitales, hoteles, restaurantes, estaciones de servicio e importantes desarrollos inmobiliarios. Entre los que se destacan:"
     }
   },
   "Gate": {
@@ -53,7 +53,7 @@
       "title": "Parqueadero para visitantes y propietarios"
     },
     "bonfire": {
-      "title": "Fogón para reuniones"
+      "title": "Zona de fogata"
     },
     "bbq": {
       "title": "Zonas BBQ"
@@ -76,8 +76,8 @@
       "privateIslandsAlt": "Vista de las islas privadas con zonas de descanso"
     },
     "Lots": {
-      "title": "Lotes desde 197 m2",
-      "pricePerM2": "VALOR M2",
+      "title": "Lotes desde 197 m²",
+      "pricePerM2": "VALOR M²",
       "price": "420.000",
       "backgroundImageAlt": "Vista aérea de los lotes"
     },
@@ -106,10 +106,13 @@
   },
   "Portfolio": {
     "title": "Nuestro Portafolio",
-    "downloadButton": "Descargar Portafolio",
-    "mapTitle": "Nuestra Ubicación",
-    "mapAlt": "Ubicación de Santillana del Mar en Google Maps",
-    "openMapButton": "Abrir en Google Maps"
+    "downloadButton": "Descargar Portafolio"
+  ,
+    "mapAlt": "Mapa de Santillana del Mar",
+    "openMapButton": "Abrir en Google Maps",
+    "mapTitle": "Ubicación"},
+  "Benefits": {
+    "title": "Nuestros Beneficios"
   },
   "DreamHomeVisualizer": {
     "title": "Visualiza tu Casa Soñada",
