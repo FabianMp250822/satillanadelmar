@@ -1,14 +1,6 @@
 import Header from '@/components/landing/Header';
 import Hero from '@/components/landing/Hero';
-import Intro from '@/components/landing/Intro';
-import Gate from '@/components/landing/Gate';
-import Amenities from '@/components/landing/Amenities';
-import MoreInfo from '@/components/landing/MoreInfo';
-import Footer from '@/components/landing/Footer';
 import { unstable_setRequestLocale } from 'next-intl/server';
-import Portfolio from '@/components/landing/Portfolio';
-import Gallery from '@/components/landing/Gallery';
-import ContactForm from '@/components/landing/Features';
 
 type Props = {
   params: {locale: string};
@@ -22,15 +14,7 @@ export default function Home({ params: {locale} }: Props) {
       <Header />
       <main className="flex-1">
         <Hero />
-        <Intro />
-        <Gate />
-        <Amenities />
-        <MoreInfo />
-        <Gallery />
-        <Portfolio />
-        <ContactForm />
       </main>
-      <Footer />
     </div>
   );
 }
