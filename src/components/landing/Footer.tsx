@@ -10,9 +10,9 @@ export default function Footer() {
   const tNav = useTranslations('Navigation');
   
   const navLinks = [
-    { href: '#intro', label: tNav('intro') },
-    { href: '#amenities', label: tNav('amenities') },
-    { href: '#lots', label: tNav('lots') },
+    { href: '#benefits', label: tNav('benefits') },
+    { href: '#virtual-tour', label: tNav('virtualTour') },
+    { href: '#lake-view', label: tNav('lakeView') },
     { href: '#portfolio', label: tNav('portfolio') },
   ];
 
@@ -40,11 +40,6 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link href="#contact" className="hover:text-primary transition-colors">
-                  {tNav('contact')}
-                </Link>
-              </li>
             </ul>
           </div>
 

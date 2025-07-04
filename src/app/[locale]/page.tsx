@@ -4,6 +4,7 @@ import Portfolio from '@/components/landing/Portfolio';
 import Benefits from '@/components/landing/Benefits';
 import VirtualTour from '@/components/landing/VirtualTour';
 import LakeView from '@/components/landing/LakeView';
+import Footer from '@/components/landing/Footer';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
 type Props = {
@@ -23,6 +24,7 @@ export default function Home({ params: {locale} }: Props) {
         <LakeView />
         <Portfolio />
       </main>
+      <Footer />
     </div>
   );
 }

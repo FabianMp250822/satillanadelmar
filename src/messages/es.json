@@ -12,7 +12,10 @@
     "amenities": "Amenidades",
     "lots": "Lotes",
     "contact": "Contacto",
-    "portfolio": "Portafolio"
+    "portfolio": "Portafolio",
+    "benefits": "Nuestros Beneficios",
+    "virtualTour": "Recorrido Virtual",
+    "lakeView": "Vista al Lago"
   },
   "Hero": {
     "title": "Construye la casa de tus sueños",
