@@ -2,6 +2,7 @@ import Header from '@/components/landing/Header';
 import Hero from '@/components/landing/Hero';
 import Portfolio from '@/components/landing/Portfolio';
 import Benefits from '@/components/landing/Benefits';
+import VirtualTour from '@/components/landing/VirtualTour';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
 type Props = {
@@ -17,6 +18,7 @@ export default function Home({ params: {locale} }: Props) {
       <main className="flex-1">
         <Hero />
         <Benefits />
+        <VirtualTour />
         <Portfolio />
       </main>
     </div>
