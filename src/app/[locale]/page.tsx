@@ -1,5 +1,6 @@
 import Header from '@/components/landing/Header';
 import Hero from '@/components/landing/Hero';
+import Portfolio from '@/components/landing/Portfolio';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
 type Props = {
@@ -14,6 +15,7 @@ export default function Home({ params: {locale} }: Props) {
       <Header />
       <main className="flex-1">
         <Hero />
+        <Portfolio />
       </main>
     </div>
   );
