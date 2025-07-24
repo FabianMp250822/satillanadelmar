@@ -12,7 +12,10 @@
     "amenities": "Amenidades",
     "lots": "Lotes",
     "contact": "Contacto",
-    "portfolio": "Portafolio"
+    "portfolio": "Portafolio",
+    "benefits": "Nuestros Beneficios",
+    "virtualTour": "Recorrido Virtual",
+    "lakeView": "Vista al Lago"
   },
   "Hero": {
     "title": "Construye la casa de tus sueños",
@@ -189,7 +192,7 @@
     "slogan": "Tu hogar soñado donde la exclusividad se encuentra con la naturaleza.",
     "quickLinksTitle": "Enlaces Rápidos",
     "contactTitle": "Contacto",
-    "phone": "+57 3015098552",
+    "phone": "3155170988 - 3164406333",
     "email": "GERENCIASANTILLANADELMAR@GMAIL.COM",
     "address": "MANGA AV. JIMENEZ CALLE 28 #17-179",
     "copyright": "© {year} Santillana del Mar. Todos los derechos reservados."

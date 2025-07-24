@@ -1,7 +1,7 @@
 'use client';
 
 const WhatsAppButton = () => {
-    const phoneNumber = "573018698582";
+    const phoneNumber = "573164406333";
     const message = encodeURIComponent("Hola, estoy interesado/a en el proyecto Santillana del Mar y me gustaría recibir más información.");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
